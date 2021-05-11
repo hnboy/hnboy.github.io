@@ -1,37 +1,16 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>ONFI - Tag - stay foolish stay hungry</title>
-        <link>https://hnboy.github.io/tags/onfi/</link>
-        <description>ONFI - Tag - stay foolish stay hungry</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hnwolf@gmail.com (WQ)</managingEditor>
-            <webMaster>hnwolf@gmail.com (WQ)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 10 May 2021 22:08:48 &#43;0800</lastBuildDate><atom:link href="https://hnboy.github.io/tags/onfi/" rel="self" type="application/rss+xml" /><item>
-    <title>CE Reduction</title>
-    <link>https://hnboy.github.io/onfi-ce-reduction/</link>
-    <pubDate>Mon, 10 May 2021 22:08:48 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://hnboy.github.io/onfi-ce-reduction/</guid>
-    <description><![CDATA[简介 在大容量NAND Package设计中，一个设计中可能存在很多个NAND Package，每个package中一般有2~8根CE# PIN。使用CE# Reduction机制可以让host的单个CE#被多个NAND pacakge复用,这样使得Host所需要的CE#引脚大大减少。
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>ONFI - Tag - stay foolish stay hungry</title><link>https://hnboy.github.io/tags/onfi/</link><description>ONFI - Tag - stay foolish stay hungry</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hnwolf@gmail.com (WQ)</managingEditor><webMaster>hnwolf@gmail.com (WQ)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 10 May 2021 22:08:48 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/tags/onfi/" rel="self" type="application/rss+xml"/><item><title>CE Reduction</title><link>https://hnboy.github.io/onfi-ce-reduction/</link><pubDate>Mon, 10 May 2021 22:08:48 +0800</pubDate><author>Author</author><guid>https://hnboy.github.io/onfi-ce-reduction/</guid><description>简介 在大容量NAND Package设计中，一个设计中可能存在很多个NAND Package，每个package中一般有2~8根CE# PIN。使用CE# Reduction机制可以让host的单个CE#被多个NAND pacakge复用,这样使得Host所需要的CE#引脚大大减少。
 CE Reduction机制在初始化过程中，为每一个NAND指定一个Volume地址。初始化后，host可以通过volume选择命令(E1h)在选择指定的Volume。
 Tips:这里要区分NAND中Package,Target,LUN的概念划分。可以参考下图
 package.pngNAND Package
-" package.png 
+" package.png
 在物理连接上,通过ENo和ENI依次串联起所有的NAND Package。第一个Package的ENI不会连接，后面的Package依次连接到前一个Package的ENo信号。
 在Power on的时候，ENo会被driver low。之后如果CE#被置成High状态，ENo对应为High-Z状态。如果CE#置成Low并set成对应的volume地址后，此时的ENo会被置高。
 ENi状态决定了NAND package是否接受cmd。 如果CE# LOW and ENi Pin is High,那么就可以接受cmd；反之如果CE# high或者ENi low，则不能接受cmd。
-initial sequence  host power on the NAND. host pulls CE# LOW. 如果resetting all NAND Parallel，host 发送Reset(FFh) command.此时Reset CMD会被所有的NAND Device接受到。 如果reseeting all NAND sequence 1). 只有ENi pin high的NAND device能接受到命令。 host发送set feature cmd 来设定Volume Configure(58h)。每个NAND target的Volume address应该都是独立的。发送set features 命令后，ENo被设置成High同时Volume is deselected，直到host发送Volume select(E1h)来选中指定的Volume。  Volumn configure&amp;&amp;select vol_configure.]]></description>
-</item><item>
-    <title>NAND FLASH ONFI SPEC 4.0 ( 一 )</title>
-    <link>https://hnboy.github.io/onfi/</link>
-    <pubDate>Mon, 10 May 2021 20:08:48 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://hnboy.github.io/onfi/</guid>
-    <description><![CDATA[Interface(SDR NVDDR NVDDR2/NVDDR3)   IO bus 改名成DQ bus.
-  多了个DQS 信号，DQS为双向管脚。 DQS不能用于cmd和address cycle。在SDR mode下DQS应该被host 拉高，device ignore ， DQS沿对应data valid window。
-  NV-DDR interface
- WE_n (clk)代替clock signal. RE_n(W/R#)变成write/read 双向管脚信号.    NV-DDR2/3
- RE_N变成RE_t , RE_c DQS信号来做DQ data bus strobe.    ONFI VS Tole  Tole同步模式下不用clock，写数据用DQS差分信号跳变沿触发，读数据用Host发的REN差分信号跳变沿发读request，DQS跳变沿输出数据。 ONFI2.0 增加NV-DDR，支持DDR操作，但是使用同步时钟来控制，所以边沿容易受干扰。ONFI3.0增加DDR2,ONFI4.0增加NV-DDR3,均支持DQS差分信号而不同同步时钟.  Sync(同步) VS Async(异步) 简单来说，需要时钟信号的就是同步NAND Flash，不需要时钟的就是异步NAND。
-  引脚的功能区别
-  同步模式下PIN8为W/R#pin, 异步模式下为RE#引脚
-  同步模式下PIN18为CLK引脚，异步模式下为WE#引脚]]></description>
-</item></channel>
-</rss>
+initial sequence host power on the NAND. host pulls CE# LOW. 如果resetting all NAND Parallel，host 发送Reset(FFh) command.此时Reset CMD会被所有的NAND Device接受到。 如果reseeting all NAND sequence 1). 只有ENi pin high的NAND device能接受到命令。 host发送set feature cmd 来设定Volume Configure(58h)。每个NAND target的Volume address应该都是独立的。发送set features 命令后，ENo被设置成High同时Volume is deselected，直到host发送Volume select(E1h)来选中指定的Volume。 Volumn configure&amp;amp;&amp;amp;select vol_configure.</description></item><item><title>NAND FLASH ONFI SPEC 4.0 ( 一 )</title><link>https://hnboy.github.io/onfi/</link><pubDate>Mon, 10 May 2021 20:08:48 +0800</pubDate><author>Author</author><guid>https://hnboy.github.io/onfi/</guid><description>Interface(SDR NVDDR NVDDR2/NVDDR3) IO bus 改名成DQ bus.
+多了个DQS 信号，DQS为双向管脚。 DQS不能用于cmd和address cycle。在SDR mode下DQS应该被host 拉高，device ignore ， DQS沿对应data valid window。
+NV-DDR interface
+WE_n (clk)代替clock signal. RE_n(W/R#)变成write/read 双向管脚信号. NV-DDR2/3
+RE_N变成RE_t , RE_c DQS信号来做DQ data bus strobe. ONFI VS Tole Tole同步模式下不用clock，写数据用DQS差分信号跳变沿触发，读数据用Host发的REN差分信号跳变沿发读request，DQS跳变沿输出数据。 ONFI2.0 增加NV-DDR，支持DDR操作，但是使用同步时钟来控制，所以边沿容易受干扰。ONFI3.0增加DDR2,ONFI4.0增加NV-DDR3,均支持DQS差分信号而不同同步时钟. Sync(同步) VS Async(异步) 简单来说，需要时钟信号的就是同步NAND Flash，不需要时钟的就是异步NAND。
+引脚的功能区别
+同步模式下PIN8为W/R#pin, 异步模式下为RE#引脚
+同步模式下PIN18为CLK引脚，异步模式下为WE#引脚</description></item></channel></rss>
