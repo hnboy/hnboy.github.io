@@ -6,7 +6,9 @@ package.pngNAND Package
 在物理连接上,通过ENo和ENI依次串联起所有的NAND Package。第一个Package的ENI不会连接，后面的Package依次连接到前一个Package的ENo信号。
 在Power on的时候，ENo会被driver low。之后如果CE#被置成High状态，ENo对应为High-Z状态。如果CE#置成Low并set成对应的volume地址后，此时的ENo会被置高。
 ENi状态决定了NAND package是否接受cmd。 如果CE# LOW and ENi Pin is High,那么就可以接受cmd；反之如果CE# high或者ENi low，则不能接受cmd。
-initial sequence host power on the NAND. host pulls CE# LOW. 如果resetting all NAND Parallel，host 发送Reset(FFh) command.此时Reset CMD会被所有的NAND Device接受到。 如果reseeting all NAND sequence 1). 只有ENi pin high的NAND device能接受到命令。 host发送set feature cmd 来设定Volume Configure(58h)。每个NAND target的Volume address应该都是独立的。发送set features 命令后，ENo被设置成High同时Volume is deselected，直到host发送Volume select(E1h)来选中指定的Volume。 Volumn configure&amp;amp;&amp;amp;select vol_configure.</description></item><item><title>NAND FLASH ONFI SPEC 4.0 ( 一 )</title><link>https://hnboy.github.io/onfi/</link><pubDate>Mon, 10 May 2021 20:08:48 +0800</pubDate><author>Author</author><guid>https://hnboy.github.io/onfi/</guid><description>Interface(SDR NVDDR NVDDR2/NVDDR3) IO bus 改名成DQ bus.
+initial sequence host power on the NAND.
+host pulls CE# LOW.
+如果resetting all NAND Parallel，host 发送Reset(FFh) command.此时Reset CMD会被所有的NAND Device接受到。</description></item><item><title>NAND FLASH ONFI SPEC 4.0 ( 一 )</title><link>https://hnboy.github.io/onfi/</link><pubDate>Mon, 10 May 2021 20:08:48 +0800</pubDate><author>Author</author><guid>https://hnboy.github.io/onfi/</guid><description>Interface(SDR NVDDR NVDDR2/NVDDR3) IO bus 改名成DQ bus.
 多了个DQS 信号，DQS为双向管脚。 DQS不能用于cmd和address cycle。在SDR mode下DQS应该被host 拉高，device ignore ， DQS沿对应data valid window。
 NV-DDR interface
 WE_n (clk)代替clock signal. RE_n(W/R#)变成write/read 双向管脚信号. NV-DDR2/3
