@@ -19,7 +19,7 @@ sed -i 's/^SELINUX=.*/SELINUX=disabled/' /etc/selinux/config
 firewall-cmd --permanent --add-service=http
 firewall-cmd --permanent --add-service=https
 ```
-{{</admonition>}}>
+{{</admonition>}}
 
 
 ## 安装
