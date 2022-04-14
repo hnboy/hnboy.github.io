@@ -3,9 +3,8 @@
 
 ## 关于我 
 
-熟悉NAND/NOR FLASH device工作原理，有丰富的NAND/NOR CP&FT测试经验.
+> 熟悉NAND/NOR FLASH device工作原理，有丰富的NAND/NOR CP&FT测试经验.
 
-## 技术能力
 
 > **开发语言**: C, C++, Java, python 
 
