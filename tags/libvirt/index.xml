@@ -1,17 +1,1 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>libvirt - Tag - stay foolish stay hungry</title><link>https://hnboy.github.io/tags/libvirt/</link><description>libvirt - Tag - stay foolish stay hungry</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hnwolf@gmail.com (WQ)</managingEditor><webMaster>hnwolf@gmail.com (WQ)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 22 Apr 2022 15:24:58 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/tags/libvirt/" rel="self" type="application/rss+xml"/><item><title>Libvirt</title><link>https://hnboy.github.io/libvirt/</link><pubDate>Fri, 22 Apr 2022 15:24:58 +0800</pubDate><author>Author</author><guid>https://hnboy.github.io/libvirt/</guid><description><![CDATA[<p>Libvirt可以通过qemu和OVMF来支持UEFI虚拟机，先安装edk2-ovmf,然后添加如下内容
-/etc/libvirt/qemu.conf</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-c" data-lang="c"><span class="c1">// /etc/libvirt/qemu.conf
-</span><span class="c1"></span><span class="n">nvram</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s">&#34;/usr/share/ovmf/x64/OVMF_CODE.fd:/usr/share/ovmf/x64/OVMF_VARS.fd&#34;</span>
-    <span class="p">]</span>
-</code></pre></td></tr></table>
-</div>
-</div>]]></description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>libvirt - Tag - stay foolish stay hungry</title><link>https://hnboy.github.io/tags/libvirt/</link><description>libvirt - Tag - stay foolish stay hungry</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hnwolf@gmail.com (WQ)</managingEditor><webMaster>hnwolf@gmail.com (WQ)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 22 Apr 2022 15:24:58 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/tags/libvirt/" rel="self" type="application/rss+xml"/><item><title>Libvirt</title><link>https://hnboy.github.io/libvirt/</link><pubDate>Fri, 22 Apr 2022 15:24:58 +0800</pubDate><author>Author</author><guid>https://hnboy.github.io/libvirt/</guid><description></description></item></channel></rss>
