@@ -4,6 +4,7 @@
 <!--more-->
 # SSD Architecture
  - SSD is a complete, small system where all componets are soldedred on a PCB and is indpendenty packaged
+```
    ---------------------------------------------------------------------------------------
   |                                                                                       |
   |                                SSD                                                    |
@@ -42,7 +43,7 @@
   |                                                 -----------                           |
   |                                                                                       |
    --------------------------------------------------------------------------------------
-
+```
 # Controller功能
 - 提供一个接口在host和Flash之间
 - 处理来自host的数据，提高数据传输效率以及数据的可靠性。
