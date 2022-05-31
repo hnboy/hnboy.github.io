@@ -22,7 +22,6 @@
 
 1. 可以通过软件中心选择
 
- {{< vimeo 715556581 >}}
 2. 参考<a href="https://mirrors.ustc.edu.cn/help/manjaro.html" target="_blank">ustc源使用帮助</a>来进行修改。
 
 
