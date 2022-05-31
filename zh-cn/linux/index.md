@@ -75,7 +75,7 @@ patch:
 ```shell
 wget -O -  https://raw.githubusercontent.com/hnboy/script/master/linux/install/linux.sh | bash
 ```
-##杂项
+## 杂项
 - grub启动项目修改
 
 ```c++
@@ -84,7 +84,7 @@ wget -O -  https://raw.githubusercontent.com/hnboy/script/master/linux/install/l
 GRUB_CMDLINE_LINUX="nowatchdog i8042.dumbkdb"
 ```
 
-###Enable Wayland
+### Enable Wayland
 参考KDE enable wayland 
 
 
