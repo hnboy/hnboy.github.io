@@ -46,7 +46,8 @@ sudo pacman -S yay
 
 - fcitx5
 ```shell
-yay -s fcitx5 fcitx5-configtool fcitx5-rime rime-cloverpinyin fcitx5-qt fcitx5-gtk fcitx5-material-color
+yay -s fcitx5 fcitx5-configtool  fcitx5-qt fcitx5-gtk 
+yay -s fcitxr5-rime rime-cloverpinyin fcitx5-material-color
 ```
 
 ### fcitx5 设置
