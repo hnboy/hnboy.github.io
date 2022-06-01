@@ -19,9 +19,7 @@
   可以使用ustc，tsinghua等国内的开源镜像，加速软件安装以及系统更新。
 
 - 修改方式
-
 1. 可以通过软件中心选择
-
 2. 参考<a href="https://mirrors.ustc.edu.cn/help/manjaro.html" target="_blank">ustc源使用帮助</a>来进行修改。
 
 
@@ -76,6 +74,23 @@ patch:
 ```shell
 wget -O -  https://raw.githubusercontent.com/hnboy/script/master/linux/install/linux.sh | bash
 ```
+
+## 主题
+
+- 主题<a href="https://github.com/vinceliuice/Layan-kde"> Layan </a>
+
+- 图标<a href="https://github.com/numixproject/numix-icon-theme-circle" > numix </a>
+
+- 壁纸（插件Bing每日一图，自动更换)
+
+```shell
+yay -S kvantum-theme-layan-git layan-gtk-theme-git numix-icon-theme-git
+```
+
+{{< admonition type=tips title="注意" open=true >}}
+安装kvantum引擎后，需要在kvantum里应用相关的主题,如果需要磨砂效果的调整透明度
+![image kvantum](https://yzf.qq.com/fsnb/kf-file/kf_pic/20220601/KFPIC_kfh5b753265ea50e8f_h53f9fc0d8f51dfd9f6060c2ae28_WXIMAGE_ded7202b18cd4986a5e8e9052a862040.png)
+{{</admonition>}}
 ## 杂项
 - grub启动项目修改
 
