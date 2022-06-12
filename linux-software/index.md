@@ -12,7 +12,7 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
     使用Rust编写，支持GPU加速
 ![image alacritty](https://yzf.qq.com/fsnb/kf-file/kf_pic/20220601/KFPIC_kfh5f4acbd1f53259b_h5a982290008951797aa65575cc3_WXIMAGE_140530b29fd04aee841bdeaadb3927ba.png)
 ```shell
-yay -s alacritty
+yay -S alacritty
 ```
 
 ## 浏览器
@@ -20,7 +20,7 @@ yay -s alacritty
 - google-chrome
 
 ```shell
-yay -s google-chrome
+yay -S google-chrome
 ```
 
 {{< admonition type=tips title="chrome设置" open=false >}}
@@ -32,7 +32,7 @@ yay -s google-chrome
 - wps
 1. 安装wps以及相关字体
 ```shell
-yay -s wps-office-cn ttf-wps-fonts
+yay -S wps-office-cn ttf-wps-fonts
 ```
 
 ## 音乐
@@ -44,14 +44,14 @@ yay -s wps-office-cn ttf-wps-fonts
 ## 密码管理
 - Bitwarden
 ```
-yay -s bitwarden
+yay -S bitwarden
 ```
 
 ## 编辑器
 - vscode
 - vim
 ```shell
-yay -s vscode vim
+yay -S vscode vim
 ```
 
 ## 系统状态查看
@@ -65,7 +65,7 @@ yay -s vscode vim
 ![image exa](https://yzf.qq.com/fsnb/kf-file/kf_pic/20220601/KFPIC_kfh5638f3bf7f68fc3_h59e0e8184f5533b2c7f20918abc_WXIMAGE_858eb5e366eb48c1ad7946d4259f2e96.png)
 
 ```shell
-yay -s exa bat
+yay -S exa bat
 ```
 
 
