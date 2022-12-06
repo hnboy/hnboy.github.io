@@ -12,8 +12,6 @@ $HOME/.steam/steam/steamapps/common/Sid Meier's Civilization VI
 
 ```c++
 unset LANGUAGE
-:w
-:q
 ./Civ6Sub
 ```
 
