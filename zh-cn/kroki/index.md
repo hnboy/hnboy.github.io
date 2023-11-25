@@ -47,3 +47,28 @@ partition Debug{
 
 <img src="/images/kroki/wavedrom.svg" width="100%" heigh="100%">
 
+```c++
+[plantuml, 1, svg]
+....
+@startmindmap
+skinparam monochrome true
++ OS
+++ Ubuntu
++++ Linux Mint
++++ Kubuntu
++++ Lubuntu
++++ KDE Neon
+++ LMDE
+++ SolydXK
+++ SteamOS
+++ Raspbian
+-- Windows 95
+-- Windows 98
+-- Windows NT
+--- Windows 8
+--- Windows 10
+@endmindmap
+....
+```
+<img src="/images/kroki/plantuml1.svg" width="100%" heigh="100%">
+
