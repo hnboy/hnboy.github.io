@@ -1,7 +1,9 @@
 # Arch Linux 高效配置：优化 pacman 与 Docker 环境
 
 
-Arch Linux 以其灵活性、简洁性和强大的社区支持而闻名。要充分利用 Arch，精通其包管理器 `pacman` 和配置现代开发工具（如 Docker）至关重要。本文将指导您完成对 `pacman.conf` 的关键优化和 Docker 的基础设置，让您的系统更高效、更顺手。
+Arch Linux 以其灵活性、简洁性和强大的社区支持而闻名。
+要充分利用 Arch，精通其包管理器 `pacman` 和配置现代开发工具（如 Docker）至关重要。
+本文将指导您完成对 `pacman.conf` 的关键优化和 Docker 的基础设置，让您的系统更高效、更顺手。
 
 ### 一、优化 `pacman.conf`
 
@@ -9,6 +11,7 @@ Arch Linux 以其灵活性、简洁性和强大的社区支持而闻名。要充
 
 #### 1. 启用彩色输出
 
+同时可以修改cache，以此减少/var/lib占用
 彩色的 `pacman` 输出更具可读性。编辑 `/etc/pacman.conf`，找到 `[options]` 部分，并取消注释 `Color` 这一行。
 
 ```ini
@@ -22,7 +25,7 @@ Color
 
 #### 2. 开启并行下载
 
-如果您有较快的网络，并行下载可以大幅缩短更新和安装软件包的时间。在 `[options]` 部分，取消注释并设置 `ParallelDownloads` 的值。通常，5 到 10 是一个不错��选择。
+如果您有较快的网络，并行下载可以大幅缩短更新和安装软件包的时间。在 `[options]` 部分，取消注释并设置 `ParallelDownloads` 的值。通常，5 到 10 是一个不错的选择。
 
 ```ini
 # /etc/pacman.conf
@@ -103,10 +106,12 @@ sudo mkdir -p /etc/docker
 sudo nano /etc/docker/daemon.json
 ```
 
+修改data-root默认路径
 在文件中添加以下内容，这里以阿里云、网易和中科大的镜像为例。您可以选择一个或多个。
 
 ```json
 {
+  "data-root": "/var/location",
   "registry-mirrors": [
     "https://registry.docker-cn.com",
     "https://hub-mirror.c.163.com",
@@ -125,5 +130,6 @@ sudo systemctl restart docker
 
 ### 总结
 
-通过以上步骤，您不仅优化了 Arch Linux 的核心包管理系统 `pacman`，还配置了一个更适合国内网络环境和日常开发的 Docker 环境。这些小调整将为您的 Arch 之旅带来极大的便利。
+通过以上步骤，您不仅优化了 Arch Linux 的核心包管理系统 `pacman`，还配置了一个更适合国内网络环境和日常开发的 Docker 环境。
+这些小调整将为您的 Arch 之旅带来极大的便利。
 
