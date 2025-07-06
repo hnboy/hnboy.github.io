@@ -1,4 +1,4 @@
-# Arch Linux 高效配置：优化 pacman 与 Docker 环境
+# pacman 与 Docker 配置
 
 
 Arch Linux 以其灵活性、简洁性和强大的社区支持而闻名。
