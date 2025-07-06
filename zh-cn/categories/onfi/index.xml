@@ -1,0 +1,10 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>ONFI - 分类 - stay foolish stay hungry</title><link>https://hnboy.github.io/zh-cn/categories/onfi/</link><description>ONFI - 分类 - stay foolish stay hungry</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 11 May 2021 01:08:48 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/zh-cn/categories/onfi/" rel="self" type="application/rss+xml"/><item><title>NAND FLASH ONFI SPEC 4.0 ( 一 )</title><link>https://hnboy.github.io/zh-cn/onfi/</link><pubDate>Tue, 11 May 2021 01:08:48 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/zh-cn/onfi/</guid><description><![CDATA[<h2 id="interfacesdr-nvddr-nvddr2nvddr3">Interface(SDR NVDDR NVDDR2/NVDDR3)</h2>
+<ul>
+<li>
+<p>IO bus 改名成DQ bus.</p>
+</li>
+<li>
+<p>多了个DQS 信号，DQS为双向管脚。 DQS不能用于cmd和address cycle。在SDR mode下DQS应该被host 拉高，device ignore ， DQS沿对应data valid window。</p>]]></description></item><item><title>CE Reduction</title><link>https://hnboy.github.io/zh-cn/onfi-ce-reduction/</link><pubDate>Mon, 10 May 2021 22:08:48 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/zh-cn/onfi-ce-reduction/</guid><description><![CDATA[<h3 id="简介">简介</h3>
+<ul>
+<li>
+<p>在大容量NAND Package设计中，一个设计中可能存在很多个NAND Package，每个package中一般有2~8根CE# PIN。使用CE# Reduction机制可以让host的单个CE#被多个NAND pacakge复用,这样使得Host所需要的CE#引脚大大减少。</p>]]></description></item></channel></rss>

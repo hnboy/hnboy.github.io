@@ -1,0 +1,55 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>开关电源 - 标签 - stay foolish stay hungry</title><link>https://hnboy.github.io/zh-cn/tags/%E5%BC%80%E5%85%B3%E7%94%B5%E6%BA%90/</link><description>开关电源 - 标签 - stay foolish stay hungry</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 10 May 2021 22:08:48 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/zh-cn/tags/%E5%BC%80%E5%85%B3%E7%94%B5%E6%BA%90/" rel="self" type="application/rss+xml"/><item><title>开关电源归类</title><link>https://hnboy.github.io/zh-cn/%E5%BC%80%E5%85%B3%E7%94%B5%E6%BA%90/</link><pubDate>Mon, 10 May 2021 22:08:48 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/zh-cn/%E5%BC%80%E5%85%B3%E7%94%B5%E6%BA%90/</guid><description><![CDATA[<h2 id="基本分类介绍">基本分类介绍</h2>
+<ol>
+<li><strong>硬开关</strong></li>
+</ol>
+<ul>
+<li>当晶体管上的电压（或电流）尚未到零时，强迫开关管开端或管段，这时开关管的电压下降或上升和电流的上升和下降有一个交叠的过程，使得开关过程中管子上有损耗，这种开关方式成为硬开关</li>
+</ul>
+<ol start="2">
+<li><strong>硬软开关</strong></li>
+</ol>
+<ul>
+<li>与硬开关相对，当晶体管开关在电压为零的时候开通，或电流为零的时候管段，从而使得开关损耗接近于零，这种开关的方式成为软开关</li>
+</ul>
+<ol start="3">
+<li><strong>谐振</strong></li>
+</ol>
+<ul>
+<li>在理想的LC并联电路上加正弦电流源时，电路的总导纳为零，元件上的电压为无穷大，这种现象为并联谐振，电路谐振时有一下两个重要参数
+（1）谐振频率：谐振时的电路频率 ω = 1/√LC
+（2）特征频率：谐振时，感抗等于容抗，其值为Z=√(L/C)，称为特征阻抗。当LC串联电路上突加直流电压时，电路中的电流按照正弦规律无阻尼振荡，其频率即为电路的谐振频率也称为振荡频率</li>
+</ul>
+<ol start="4">
+<li><strong>准谐振</strong></li>
+</ol>
+<ul>
+<li>对于有开关的LC串联电路，点电流按照谐振振荡时，如果开关动作，使得电流正弦振荡只在一个周期的部分时间内发生，则电路会呈准正弦，这一现象称为准谐振。同样在LC并联电路中，借助开关动作，也可获得准谐振。</li>
+</ul>
+<ol start="5">
+<li><strong>零电压开通</strong></li>
+</ol>
+<ul>
+<li>利用谐振现象。当开关变换器中的器件电压按照正弦规律振荡到零时，使得器件开通，称为ZVS 即零电压开通</li>
+</ul>
+<ol start="6">
+<li><strong>零电流关断</strong></li>
+</ol>
+<ul>
+<li>同理，当开关变换器中的器件电流按正弦规律振荡到零时，使器件关断称之为 ZCS</li>
+</ul>
+<ol start="7">
+<li><strong>保持时间</strong></li>
+</ol>
+<ul>
+<li>保持时间是指交流输入电源发生故障后，电源能保持输出电压不变的时间</li>
+</ul>
+<ol start="8">
+<li><strong>拓扑结构</strong></li>
+</ol>
+<ul>
+<li>拓扑结构指变换器的电路结构类型。常用变换器的电路结构有反激式、正激式、半桥式、全桥式、谐振式和软开关式等。</li>
+</ul>
+<h2 id="电路拓扑结构设计选择常见问题">电路拓扑结构设计选择常见问题</h2>
+<ol>
+<li>
+<p><strong>占空比</strong></p>]]></description></item></channel></rss>
