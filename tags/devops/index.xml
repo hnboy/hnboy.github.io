@@ -1,35 +1,14 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>DevOps - Tag - stay foolish stay hungry</title><link>https://hnboy.github.io/tags/devops/</link><description>DevOps - Tag - stay foolish stay hungry</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 05 Jul 2025 12:00:00 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/tags/devops/" rel="self" type="application/rss+xml"/><item><title>pacman 与 Docker 配置</title><link>https://hnboy.github.io/archlinux-config-guide/</link><pubDate>Sat, 05 Jul 2025 12:00:00 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/archlinux-config-guide/</guid><description><![CDATA[<p>Arch Linux 以其灵活性、简洁性和强大的社区支持而闻名。
-要充分利用 Arch，精通其包管理器 <code>pacman</code> 和配置现代开发工具（如 Docker）至关重要。
-本文将指导您完成对 <code>pacman.conf</code> 的关键优化和 Docker 的基础设置，让您的系统更高效、更顺手。</p>
-<h3 id="一优化-pacmanconf">一、优化 <code>pacman.conf</code></h3>
-<p><code>pacman</code> 的主配置文件位于 <code>/etc/pacman.conf</code>。通过一些简单的调整，您可以显著提升其性能和功能。</p>
-<h4 id="1-启用彩色输出">1. 启用彩色输出</h4>
-<p>同时可以修改cache，以此减少/var/lib占用
-彩色的 <code>pacman</code> 输出更具可读性。编辑 <code>/etc/pacman.conf</code>，找到 <code>[options]</code> 部分，并取消注释 <code>Color</code> 这一行。</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>DevOps - Tag - stay foolish stay hungry</title><link>https://hnboy.github.io/tags/devops/</link><description>DevOps - Tag - stay foolish stay hungry</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 06 Feb 2024 23:00:00 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/tags/devops/" rel="self" type="application/rss+xml"/><item><title>Arch Linux Post-Installation Master Guide (2026 Edition)</title><link>https://hnboy.github.io/archlinux-config-guide/</link><pubDate>Tue, 06 Feb 2024 23:00:00 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/archlinux-config-guide/</guid><description><![CDATA[<h1 id="arch-linux-post-installation-from-zero-to-pro">Arch Linux Post-Installation: From Zero to Pro</h1>
+<p>Installing Arch Linux is often seen as a &ldquo;rite of passage&rdquo; for Linux users. However, the real work begins <em>after</em> the initial reboot. This guide provides a deep dive into configuring your Arch system for a professional development environment in 2026.</p>
+<h2 id="1-user-and-security-hardening">1. User and Security Hardening</h2>
+<p>First, ensure your system is not running as root for daily tasks.</p>
 <div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
-    <div class="code-header language-ini">
+    <div class="code-header language-bash">
         <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
         <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
         <span class="copy" title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
-    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="c1"># /etc/pacman.conf</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">[options]</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#...</span>
-</span></span><span class="line"><span class="cl"><span class="na">Color</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#...</span></span></span></code></pre></div></div>
-<h4 id="2-开启并行下载">2. 开启并行下载</h4>
-<p>如果您有较快的网络，并行下载可以大幅缩短更新和安装软件包的时间。在 <code>[options]</code> 部分，取消注释并设置 <code>ParallelDownloads</code> 的值。通常，5 到 10 是一个不错的选择。</p>
-<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
-    <div class="code-header language-ini">
-        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
-        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
-        <span class="copy" title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
-    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="c1"># /etc/pacman.conf</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">[options]</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#...</span>
-</span></span><span class="line"><span class="cl"><span class="na">Color</span>
-</span></span><span class="line"><span class="cl"><span class="na">ParallelDownloads</span> <span class="o">=</span> <span class="s">5</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#...</span></span></span></code></pre></div></div>
-<h4 id="3-启用-multilib-仓库">3. 启用 <code>multilib</code> 仓库</h4>
-<p><code>multilib</code> 仓库包含了 32 位的软件包，这对于运行 Steam、Wine 等应用至关重要。在配置文件中，找到并取消注释 <code>[multilib]</code> 部分。</p>]]></description></item></channel></rss>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">useradd -m -G wheel,storage,power yourusername
+</span></span><span class="line"><span class="cl">passwd yourusername
+</span></span><span class="line"><span class="cl"><span class="c1"># Edit sudoers to allow wheel group</span>
+</span></span><span class="line"><span class="cl"><span class="nv">EDITOR</span><span class="o">=</span>nano visudo</span></span></code></pre></div></div>
+<p><strong>Pro Tip:</strong> Enable SSH key-only authentication and disable password logins to prevent brute-force attacks on your workstation.</p>]]></description></item></channel></rss>
