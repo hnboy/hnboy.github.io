@@ -1,0 +1,10 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Storage Tech - Tag - stay foolish stay hungry</title><link>https://hnboy.github.io/tags/storage-tech/</link><description>Storage Tech - Tag - stay foolish stay hungry</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 07 Feb 2026 19:10:00 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/tags/storage-tech/" rel="self" type="application/rss+xml"/><item><title>ONFI Spec Analysis Part 3: ONFI 5.1 and the Future of NV-LPDDR4</title><link>https://hnboy.github.io/onfi-spec-analysis-part-3/</link><pubDate>Sat, 07 Feb 2026 19:10:00 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/onfi-spec-analysis-part-3/</guid><description><![CDATA[<h1 id="onfi-spec-analysis-part-3-onfi-51-and-the-future-of-nv-lpddr4">ONFI Spec Analysis Part 3: ONFI 5.1 and the Future of NV-LPDDR4</h1>
+<p>The final part of our series explores the cutting edge: ONFI 5.1. This version is designed for enterprise SSDs requiring massive throughput and mobile devices needing extreme power efficiency.</p>
+<h2 id="1-nv-lpddr4-interface">1. NV-LPDDR4 Interface</h2>
+<p>The biggest leap in ONFI 5.x is the introduction of the <strong>NV-LPDDR4</strong> interface.</p>
+<ul>
+<li>It enables speeds up to <strong>2400MT/s</strong> and beyond.</li>
+<li>Uses low-voltage signaling to maintain performance while reducing heat.</li>
+</ul>
+<h2 id="2-command-set-extensions">2. Command Set Extensions</h2>
+<p>To support high-capacity QLC NAND, ONFI 5.1 introduces refined command sets for:</p>]]></description></item></channel></rss>

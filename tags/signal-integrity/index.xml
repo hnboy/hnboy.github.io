@@ -1,0 +1,11 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Signal Integrity - Tag - stay foolish stay hungry</title><link>https://hnboy.github.io/tags/signal-integrity/</link><description>Signal Integrity - Tag - stay foolish stay hungry</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 07 Feb 2026 18:55:00 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/tags/signal-integrity/" rel="self" type="application/rss+xml"/><item><title>ONFI Spec Analysis Part 2: Data Interface Evolution &amp; ODT</title><link>https://hnboy.github.io/onfi-spec-analysis-part-2/</link><pubDate>Sat, 07 Feb 2026 18:55:00 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/onfi-spec-analysis-part-2/</guid><description><![CDATA[<h1 id="onfi-spec-analysis-part-2-data-interface-evolution--odt">ONFI Spec Analysis Part 2: Data Interface Evolution &amp; ODT</h1>
+<p>Following our architecture overview in Part 1, we now dive into the physical data interfaces that enable the high-speed performance of modern NAND flash.</p>
+<h2 id="1-evolution-of-the-interface">1. Evolution of the Interface</h2>
+<p>ONFI has evolved significantly to keep up with throughput demands:</p>
+<ul>
+<li><strong>SDR (Single Data Rate)</strong>: The classic asynchronous interface. Simple but limited in frequency.</li>
+<li><strong>NV-DDR</strong>: Introduced source-synchronous clocking using the DQS strobe.</li>
+<li><strong>NV-DDR2/3</strong>: Added features like differential signaling and lower voltage swings (1.2V/1.8V) to reach speeds beyond 400MT/s.</li>
+</ul>
+<h2 id="2-on-die-termination-odt">2. On-Die Termination (ODT)</h2>
+<p>As frequencies increase, signal reflections become a major bottleneck. ONFI 4.x and 5.x specifications rely heavily on <strong>ODT</strong>.</p>]]></description></item></channel></rss>
