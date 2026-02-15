@@ -1,0 +1,12 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Hardware Design - Category - stay foolish stay hungry</title><link>https://hnboy.github.io/categories/hardware-design/</link><description>Hardware Design - Category - stay foolish stay hungry</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 12 Feb 2026 07:30:00 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/categories/hardware-design/" rel="self" type="application/rss+xml"/><item><title>ONFI Signal Integrity Optimization: Beyond Basic ODT</title><link>https://hnboy.github.io/onfi-signal-integrity-optimization/</link><pubDate>Thu, 12 Feb 2026 07:30:00 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/onfi-signal-integrity-optimization/</guid><description><![CDATA[<h1 id="onfi-signal-integrity-optimization-beyond-basic-odt">ONFI Signal Integrity Optimization: Beyond Basic ODT</h1>
+<p>While On-Die Termination (ODT) is the foundation of high-speed NAND interface design, achieving reliable operation at 2400MT/s (ONFI 5.0) and beyond requires a comprehensive signal integrity strategy. This post explores advanced optimization techniques that go beyond basic ODT implementation.</p>
+<h2 id="1-the-challenge-scaling-to-2400mts">1. The Challenge: Scaling to 2400MT/s+</h2>
+<p>At 2400MT/s, the unit interval (UI) is approximately <strong>417ps</strong>. Within this tiny window, we must account for:</p>
+<ul>
+<li><strong>Controller output jitter</strong>: 30-50ps</li>
+<li><strong>PCB trace delay variations</strong>: 20-40ps</li>
+<li><strong>NAND input buffer setup/hold</strong>: 50-80ps</li>
+<li><strong>Clock skew</strong>: 20-30ps</li>
+<li><strong>Power supply noise</strong>: 10-20ps</li>
+</ul>
+<p>The remaining margin for actual data transmission can be less than <strong>200ps</strong>, making every optimization critical.</p>]]></description></item></channel></rss>
