@@ -1,0 +1,268 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>ONFI - Tag - stay foolish stay hungry</title><link>https://hnboy.github.io/tags/onfi/</link><description>ONFI - Tag - stay foolish stay hungry</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 16 Feb 2026 11:30:00 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/tags/onfi/" rel="self" type="application/rss+xml"/><item><title>ONFI技术演进与未来趋势：从4.0到6.0的技术路线图</title><link>https://hnboy.github.io/onfi%E6%8A%80%E6%9C%AF%E6%BC%94%E8%BF%9B%E4%B8%8E%E6%9C%AA%E6%9D%A5%E8%B6%8B%E5%8A%BF%E4%BB%8E40%E5%88%B060%E7%9A%84%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E5%9B%BE/</link><pubDate>Mon, 16 Feb 2026 11:30:00 +0800</pubDate><author>XiaoLuoInvest</author><guid>https://hnboy.github.io/onfi%E6%8A%80%E6%9C%AF%E6%BC%94%E8%BF%9B%E4%B8%8E%E6%9C%AA%E6%9D%A5%E8%B6%8B%E5%8A%BF%E4%BB%8E40%E5%88%B060%E7%9A%84%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E5%9B%BE/</guid><description><![CDATA[<h2 id="onfi技术发展历程回顾">ONFI技术发展历程回顾</h2>
+<p>ONFI（Open NAND Flash Interface）作为NAND闪存的开放标准接口，自2006年发布以来，已经经历了多个重要版本迭代。</p>
+<h3 id="关键版本里程碑">关键版本里程碑</h3>
+<ol>
+<li><strong>ONFI 1.0 (2006)</strong>: 奠定基础，定义基本接口规范</li>
+<li><strong>ONFI 2.0 (2008)</strong>: 引入DDR模式，速度提升至200MT/s</li>
+<li><strong>ONFI 3.0 (2011)</strong>: 支持Toggle模式，速度达到400MT/s</li>
+<li><strong>ONFI 4.0 (2014)</strong>: 速度提升至800MT/s，支持NV-DDR3</li>
+<li><strong>ONFI 5.0 (2021)</strong>: 速度达到3600MT/s，支持NV-DDR4</li>
+</ol>
+<h2 id="onfi-50技术深度解析">ONFI 5.0技术深度解析</h2>
+<h3 id="核心技术创新">核心技术创新</h3>
+<ol>
+<li><strong>速度突破</strong>: 3600MT/s接口速度，相比ONFI 4.0提升4.5倍</li>
+<li><strong>能效优化</strong>: 功耗降低30%，支持更节能的移动设备</li>
+<li><strong>可靠性提升</strong>: 增强的ECC纠错能力，数据完整性更高</li>
+<li><strong>兼容性</strong>: 向后兼容ONFI 4.0，保护现有投资</li>
+</ol>
+<h3 id="应用场景拓展">应用场景拓展</h3>
+<ol>
+<li><strong>数据中心</strong>: 高性能SSD需求驱动ONFI 5.0普及</li>
+<li><strong>移动设备</strong>: 低功耗特性适合智能手机和平板</li>
+<li><strong>汽车电子</strong>: 高可靠性满足汽车级应用要求</li>
+<li><strong>工业控制</strong>: 宽温范围支持工业环境应用</li>
+</ol>
+<h2 id="onfi-60技术前瞻">ONFI 6.0技术前瞻</h2>
+<h3 id="预期技术指标">预期技术指标</h3>
+<ol>
+<li><strong>接口速度</strong>: 目标7200MT/s，相比ONFI 5.0翻倍</li>
+<li><strong>能效目标</strong>: 功耗再降低20-30%</li>
+<li><strong>延迟优化</strong>: 读写延迟降低至纳秒级</li>
+<li><strong>容量支持</strong>: 支持更高密度的3D NAND</li>
+</ol>
+<h3 id="关键技术挑战">关键技术挑战</h3>
+<ol>
+<li><strong>信号完整性</strong>: 高速信号传输的物理层挑战</li>
+<li><strong>功耗管理</strong>: 速度提升带来的功耗增加问题</li>
+<li><strong>成本控制</strong>: 新技术带来的制造成本上升</li>
+<li><strong>生态系统</strong>: 需要控制器、主控芯片等配套支持</li>
+</ol>
+<h2 id="技术演进路线图">技术演进路线图</h2>
+<h3 id="短期路线-2026-2028">短期路线 (2026-2028)</h3>
+<ol>
+<li><strong>ONFI 5.0普及</strong>: 成为主流NAND接口标准</li>
+<li><strong>工艺优化</strong>: 28nm以下制程工艺成熟</li>
+<li><strong>成本下降</strong>: 规模效应带来成本优势</li>
+</ol>
+<h3 id="中期路线-2028-2030">中期路线 (2028-2030)</h3>
+<ol>
+<li><strong>ONFI 6.0商用</strong>: 首批支持ONFI 6.0的产品上市</li>
+<li><strong>应用拓展</strong>: 在AI、边缘计算等新领域应用</li>
+<li><strong>生态完善</strong>: 完整的产业链生态系统建立</li>
+</ol>
+<h3 id="长期路线-2030-2035">长期路线 (2030-2035)</h3>
+<ol>
+<li><strong>后ONFI时代</strong>: 探索新的存储接口技术</li>
+<li><strong>技术融合</strong>: 与CXL、PCIe等技术融合</li>
+<li><strong>新架构探索</strong>: 存算一体等新架构发展</li>
+</ol>
+<h2 id="产业链影响分析">产业链影响分析</h2>
+<h3 id="nand闪存制造商">NAND闪存制造商</h3>
+<ol>
+<li><strong>技术领先者</strong>: 三星、美光、铠侠等率先支持新标准</li>
+<li><strong>追赶者机会</strong>: 长江存储等通过新技术实现弯道超车</li>
+<li><strong>成本压力</strong>: 技术升级带来的研发和制造成本增加</li>
+</ol>
+<h3 id="控制器厂商">控制器厂商</h3>
+<ol>
+<li><strong>技术挑战</strong>: 需要快速适配新的接口标准</li>
+<li><strong>市场机会</strong>: 提供兼容新旧标准的解决方案</li>
+<li><strong>生态地位</strong>: 在存储生态中的关键作用凸显</li>
+</ol>
+<h3 id="终端设备厂商">终端设备厂商</h3>
+<ol>
+<li><strong>性能提升</strong>: 获得更好的存储性能体验</li>
+<li><strong>产品差异化</strong>: 通过存储性能实现产品差异化</li>
+<li><strong>成本考量</strong>: 需要在性能和成本之间平衡</li>
+</ol>
+<h2 id="投资机会分析">投资机会分析</h2>
+<h3 id="直接受益标的">直接受益标的</h3>
+<ol>
+<li><strong>NAND闪存制造商</strong>: 技术领先者受益于标准升级</li>
+<li><strong>控制器厂商</strong>: 提供关键配套技术解决方案</li>
+<li><strong>测试设备厂商</strong>: 新标准带来测试设备更新需求</li>
+</ol>
+<h3 id="间接受益标的">间接受益标的</h3>
+<ol>
+<li><strong>半导体设备</strong>: 先进制程设备需求增长</li>
+<li><strong>材料供应商</strong>: 高端存储芯片材料需求增加</li>
+<li><strong>封装测试</strong>: 先进封装技术需求提升</li>
+</ol>
+<h3 id="重点关注公司">重点关注公司</h3>
+<ol>
+<li><strong>三星电子 (005930.KS)</strong>: ONFI技术领导者</li>
+<li><strong>美光科技 (MU)</strong>: 在ONFI 5.0技术领先</li>
+<li><strong>群联电子 (8299.TW)</strong>: 存储控制器重要厂商</li>
+<li><strong>长江存储</strong>: 国产NAND闪存技术追赶者</li>
+</ol>
+<h2 id="风险与挑战">风险与挑战</h2>
+<h3 id="技术风险">技术风险</h3>
+<ol>
+<li><strong>技术迭代风险</strong>: 新技术可能面临成熟度问题</li>
+<li><strong>兼容性风险</strong>: 新旧标准兼容可能存在问题</li>
+<li><strong>性能风险</strong>: 实际性能可能达不到理论值</li>
+</ol>
+<h3 id="市场风险">市场风险</h3>
+<ol>
+<li><strong>需求波动</strong>: 存储市场需求可能波动</li>
+<li><strong>竞争加剧</strong>: 技术竞争可能导致价格战</li>
+<li><strong>替代风险</strong>: 其他存储技术可能形成竞争</li>
+</ol>
+<h3 id="政策风险">政策风险</h3>
+<ol>
+<li><strong>技术管制</strong>: 地缘政治可能影响技术交流</li>
+<li><strong>产业政策</strong>: 各国产业政策变化影响</li>
+<li><strong>标准制定</strong>: 国际标准制定可能受政治影响</li>
+</ol>
+<h2 id="投资策略建议">投资策略建议</h2>
+<h3 id="短期策略-1-12个月">短期策略 (1-12个月)</h3>
+<ol>
+<li><strong>关注技术突破</strong>: 跟踪ONFI 5.0普及进度</li>
+<li><strong>布局领先企业</strong>: 投资技术领先的NAND制造商</li>
+<li><strong>把握周期机会</strong>: 存储周期复苏带来的投资机会</li>
+</ol>
+<h3 id="中期策略-1-3年">中期策略 (1-3年)</h3>
+<ol>
+<li><strong>技术升级受益</strong>: 投资ONFI 6.0技术相关企业</li>
+<li><strong>产业链布局</strong>: 关注控制器、测试设备等环节</li>
+<li><strong>国产替代机会</strong>: 关注国内存储产业链发展</li>
+</ol>
+<h3 id="长期策略-3-5年">长期策略 (3-5年)</h3>
+<ol>
+<li><strong>技术趋势把握</strong>: 关注后ONFI时代技术发展</li>
+<li><strong>生态建设参与</strong>: 投资存储生态系统关键企业</li>
+<li><strong>新应用拓展</strong>: 关注存储在新领域的应用机会</li>
+</ol>
+<h2 id="结论">结论</h2>
+<p>ONFI技术的持续演进是存储产业发展的重要驱动力。从ONFI 5.0到6.0的技术升级，将为存储产业带来新的发展机遇。</p>]]></description></item><item><title>PCIe 6.0 and NAND Flash Interface Integration: Future Directions</title><link>https://hnboy.github.io/pcie-6.0-nand-integration/</link><pubDate>Mon, 16 Feb 2026 08:00:00 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/pcie-6.0-nand-integration/</guid><description><![CDATA[<h1 id="pcie-60-and-nand-flash-interface-integration-future-directions">PCIe 6.0 and NAND Flash Interface Integration: Future Directions</h1>
+<p>The evolution of PCIe 6.0 brings unprecedented bandwidth and latency improvements that will fundamentally reshape how NAND flash interfaces integrate with modern computing systems. This article examines the technical challenges and architectural opportunities at this critical intersection.</p>
+<h2 id="1-pcie-60-key-technical-advancements">1. PCIe 6.0: Key Technical Advancements</h2>
+<h3 id="11-pam-4-signaling-and-64gts">1.1 PAM-4 Signaling and 64GT/s</h3>
+<p>PCIe 6.0 doubles the data rate from PCIe 5.0&rsquo;s 32GT/s to <strong>64GT/s</strong> using:</p>]]></description></item><item><title>ONFI Signal Integrity Optimization: Beyond Basic ODT</title><link>https://hnboy.github.io/onfi-signal-integrity-optimization/</link><pubDate>Thu, 12 Feb 2026 07:30:00 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/onfi-signal-integrity-optimization/</guid><description><![CDATA[<h1 id="onfi-signal-integrity-optimization-beyond-basic-odt">ONFI Signal Integrity Optimization: Beyond Basic ODT</h1>
+<p>While On-Die Termination (ODT) is the foundation of high-speed NAND interface design, achieving reliable operation at 2400MT/s (ONFI 5.0) and beyond requires a comprehensive signal integrity strategy. This post explores advanced optimization techniques that go beyond basic ODT implementation.</p>
+<h2 id="1-the-challenge-scaling-to-2400mts">1. The Challenge: Scaling to 2400MT/s+</h2>
+<p>At 2400MT/s, the unit interval (UI) is approximately <strong>417ps</strong>. Within this tiny window, we must account for:</p>
+<ul>
+<li><strong>Controller output jitter</strong>: 30-50ps</li>
+<li><strong>PCB trace delay variations</strong>: 20-40ps</li>
+<li><strong>NAND input buffer setup/hold</strong>: 50-80ps</li>
+<li><strong>Clock skew</strong>: 20-30ps</li>
+<li><strong>Power supply noise</strong>: 10-20ps</li>
+</ul>
+<p>The remaining margin for actual data transmission can be less than <strong>200ps</strong>, making every optimization critical.</p>]]></description></item><item><title>ONFI Physical Layer: Understanding ODT (On-Die Termination) Mechanics</title><link>https://hnboy.github.io/onfi-odt-mechanics/</link><pubDate>Tue, 10 Feb 2026 22:20:00 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/onfi-odt-mechanics/</guid><description><![CDATA[<p>As NAND interface speeds scale towards 2400MT/s and beyond (ONFI 4.0/5.0+), signal integrity becomes the primary bottleneck. At these frequencies, transmission line effects like signal reflection can completely close the data eye diagram. <strong>On-Die Termination (ODT)</strong> is the critical hardware mechanism designed to mitigate these effects.</p>
+<h3 id="1-the-physics-of-reflection">1. The Physics of Reflection</h3>
+<p>When a high-speed signal reaches the end of a transmission line (the NAND die), any impedance mismatch between the PCB trace (typically 50Ω) and the high-impedance input buffer causes the signal to reflect back. This creates &ldquo;ringing&rdquo; and &ldquo;intersymbol interference (ISI),&rdquo; eroding the <strong>tDS (Data Setup)</strong> and <strong>tDH (Data Hold)</strong> margins.</p>]]></description></item><item><title>ONFI Physical Layer: Hardware-Level Analysis of tADL and tWHR Timing Constraints</title><link>https://hnboy.github.io/onfi-physical-layer-timings/</link><pubDate>Tue, 10 Feb 2026 22:08:00 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/onfi-physical-layer-timings/</guid><description><![CDATA[<p>In firmware development and low-level driver debugging, general Spec overviews often fail to resolve signal integrity issues or sporadic bit-flips. This article provides a deep dive into two critical physical layer parameters in the ONFI protocol: <strong>tADL</strong> and <strong>tWHR</strong>, and explores their underlying hardware constraint logic.</p>
+<h3 id="1-tadl-address-to-data-loading-analysis">1. tADL (Address to Data Loading) Analysis</h3>
+<p><strong>tADL</strong> is defined as the minimum wait time from the rising edge of the last address cycle to the rising edge of the first data cycle.</p>]]></description></item><item><title>ONFI Spec Analysis Part 3: ONFI 5.1 and the Future of NV-LPDDR4</title><link>https://hnboy.github.io/onfi-spec-analysis-part-3/</link><pubDate>Sat, 07 Feb 2026 19:10:00 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/onfi-spec-analysis-part-3/</guid><description><![CDATA[<h1 id="onfi-spec-analysis-part-3-onfi-51-and-the-future-of-nv-lpddr4">ONFI Spec Analysis Part 3: ONFI 5.1 and the Future of NV-LPDDR4</h1>
+<p>The final part of our series explores the cutting edge: ONFI 5.1. This version is designed for enterprise SSDs requiring massive throughput and mobile devices needing extreme power efficiency.</p>
+<h2 id="1-nv-lpddr4-interface">1. NV-LPDDR4 Interface</h2>
+<p>The biggest leap in ONFI 5.x is the introduction of the <strong>NV-LPDDR4</strong> interface.</p>
+<ul>
+<li>It enables speeds up to <strong>2400MT/s</strong> and beyond.</li>
+<li>Uses low-voltage signaling to maintain performance while reducing heat.</li>
+</ul>
+<h2 id="2-command-set-extensions">2. Command Set Extensions</h2>
+<p>To support high-capacity QLC NAND, ONFI 5.1 introduces refined command sets for:</p>]]></description></item><item><title>ONFI Spec Analysis Part 2: Data Interface Evolution &amp; ODT</title><link>https://hnboy.github.io/onfi-spec-analysis-part-2/</link><pubDate>Sat, 07 Feb 2026 18:55:00 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/onfi-spec-analysis-part-2/</guid><description><![CDATA[<h1 id="onfi-spec-analysis-part-2-data-interface-evolution--odt">ONFI Spec Analysis Part 2: Data Interface Evolution &amp; ODT</h1>
+<p>Following our architecture overview in Part 1, we now dive into the physical data interfaces that enable the high-speed performance of modern NAND flash.</p>
+<h2 id="1-evolution-of-the-interface">1. Evolution of the Interface</h2>
+<p>ONFI has evolved significantly to keep up with throughput demands:</p>
+<ul>
+<li><strong>SDR (Single Data Rate)</strong>: The classic asynchronous interface. Simple but limited in frequency.</li>
+<li><strong>NV-DDR</strong>: Introduced source-synchronous clocking using the DQS strobe.</li>
+<li><strong>NV-DDR2/3</strong>: Added features like differential signaling and lower voltage swings (1.2V/1.8V) to reach speeds beyond 400MT/s.</li>
+</ul>
+<h2 id="2-on-die-termination-odt">2. On-Die Termination (ODT)</h2>
+<p>As frequencies increase, signal reflections become a major bottleneck. ONFI 4.x and 5.x specifications rely heavily on <strong>ODT</strong>.</p>]]></description></item><item><title>ONFI Spec Analysis Part 1: Architecture and Protocol Basics</title><link>https://hnboy.github.io/onfi-spec-analysis-part-1/</link><pubDate>Sat, 07 Feb 2026 16:35:00 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/onfi-spec-analysis-part-1/</guid><description><![CDATA[<h1 id="onfi-spec-analysis-part-1-architecture-and-protocol-basics">ONFI Spec Analysis Part 1: Architecture and Protocol Basics</h1>
+<p>The <strong>Open NAND Flash Interface (ONFI)</strong> is a crucial industry standard that defines a common interface for NAND flash memory flakes and controllers. This post kicks off a series exploring the intricacies of the spec.</p>
+<h2 id="1-why-onfi-matters">1. Why ONFI Matters</h2>
+<p>Before ONFI, every NAND vendor had subtle differences in timing and pinouts. ONFI standardized this, allowing a single controller design to support multiple vendors (Micron, SK Hynix, Intel, etc.).</p>]]></description></item><item><title>CE Reduction</title><link>https://hnboy.github.io/onfi-ce-reduction/</link><pubDate>Mon, 10 May 2021 22:08:48 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/onfi-ce-reduction/</guid><description><![CDATA[<h3 id="简介">简介</h3>
+<ul>
+<li>
+<p>在大容量NAND Package设计中，一个设计中可能存在很多个NAND Package，每个package中一般有2~8根CE# PIN。使用CE# Reduction机制可以让host的单个CE#被多个NAND pacakge复用,这样使得Host所需要的CE#引脚大大减少。</p>
+</li>
+<li>
+<p>CE Reduction机制在初始化过程中，为每一个NAND指定一个Volume地址。初始化后，host可以通过volume选择命令(E1h)在选择指定的Volume。</p>
+</li>
+</ul>
+<p><strong>Tips</strong>:这里要区分NAND中Package,Target,LUN的概念划分。可以参考下图</p>
+<p><figure><a class="lightgallery" href="/images/ONFI-CE-Reduction/package.png" title="NAND Package" data-thumbnail="/images/ONFI-CE-Reduction/package.png" data-sub-html="<h2>package.png</h2><p>NAND Package</p>">
+        
+    </a><figcaption class="image-caption">package.png</figcaption>
+    </figure></p>
+<ul>
+<li>
+<p>在物理连接上,通过ENo和ENI依次串联起所有的NAND Package。第一个Package的ENI不会连接，后面的Package依次连接到前一个Package的ENo信号。</p>
+</li>
+<li>
+<p>在Power on的时候，ENo会被driver low。之后如果CE#被置成High状态，ENo对应为High-Z状态。如果CE#置成Low并set成对应的volume地址后，此时的ENo会被置高。</p>
+</li>
+<li>
+<p>ENi状态决定了NAND package是否接受cmd。 如果CE# LOW and ENi Pin is High,那么就可以接受cmd；反之如果CE# high或者ENi low，则不能接受cmd。</p>
+</li>
+</ul>
+<h3 id="initial-sequence">initial sequence</h3>
+<ol>
+<li>
+<p>host power on the NAND.</p>
+</li>
+<li>
+<p>host pulls CE# LOW.</p>
+</li>
+<li>
+<p>如果resetting all NAND Parallel，host 发送Reset(FFh) command.此时Reset CMD会被所有的NAND Device接受到。</p>
+</li>
+<li>
+<p>如果reseeting all NAND sequence</p>
+<p>(1). 只有ENi pin high的NAND device能接受到命令。</p>
+</li>
+<li>
+<p>host发送set feature cmd 来设定Volume Configure(58h)。每个NAND target的Volume address应该都是独立的。发送set features 命令后，ENo被设置成High同时Volume is deselected，直到host发送Volume select(E1h)来选中指定的Volume。</p>]]></description></item><item><title>NAND FLASH ONFI SPEC 4.0 ( 一 )</title><link>https://hnboy.github.io/onfi/</link><pubDate>Mon, 10 May 2021 20:08:48 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/onfi/</guid><description><![CDATA[<h2 id="interfacesdr-nvddr-nvddr2nvddr3">Interface(SDR NVDDR NVDDR2/NVDDR3)</h2>
+<ul>
+<li>
+<p>IO bus 改名成DQ bus.</p>
+</li>
+<li>
+<p>多了个DQS 信号，DQS为双向管脚。 DQS不能用于cmd和address cycle。在SDR mode下DQS应该被host 拉高，device ignore ， DQS沿对应data valid window。</p>
+</li>
+<li>
+<p>NV-DDR interface</p>
+<ul>
+<li>WE_n (clk)代替clock signal.</li>
+<li>RE_n(W/R#)变成write/read 双向管脚信号.</li>
+</ul>
+</li>
+<li>
+<p>NV-DDR2/3</p>
+<ul>
+<li>RE_N变成RE_t , RE_c</li>
+<li>DQS信号来做DQ data bus strobe.</li>
+</ul>
+<p></p>
+</li>
+</ul>
+<h2 id="onfi-vs-tole">ONFI VS Tole</h2>
+<ul>
+<li>Tole同步模式下不用clock，写数据用DQS差分信号跳变沿触发，读数据用Host发的REN差分信号跳变沿发读request，DQS跳变沿输出数据。</li>
+<li>ONFI2.0 增加NV-DDR，支持DDR操作，但是使用同步时钟来控制，所以边沿容易受干扰。ONFI3.0增加DDR2,ONFI4.0增加NV-DDR3,均支持DQS差分信号而不同同步时钟.</li>
+</ul>
+<h2 id="sync同步-vs-async异步">Sync(同步) VS Async(异步)</h2>
+<p>简单来说，需要时钟信号的就是同步NAND Flash，不需要时钟的就是异步NAND。</p>
+<ul>
+<li>
+<p>引脚的功能区别</p>
+<ul>
+<li>
+<p>同步模式下PIN8为W/R#pin, 异步模式下为RE#引脚</p>
+</li>
+<li>
+<p>同步模式下PIN18为CLK引脚，异步模式下为WE#引脚</p>
+</li>
+<li>
+<p>同步模式下PIN35不使用，异步模式下DQS信号.</p>
+</li>
+</ul>
+<p></p>
+</li>
+<li>
+<p>异步模式下cmd address and data in/<em>out</em></p>]]></description></item></channel></rss>

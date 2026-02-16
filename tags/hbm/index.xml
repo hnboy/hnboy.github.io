@@ -1,0 +1,59 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>HBM - Tag - stay foolish stay hungry</title><link>https://hnboy.github.io/tags/hbm/</link><description>HBM - Tag - stay foolish stay hungry</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 16 Feb 2026 17:30:03 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/tags/hbm/" rel="self" type="application/rss+xml"/><item><title>HBM与HBF技术深度研究：高带宽内存与互连技术的演进与未来趋势</title><link>https://hnboy.github.io/hbm%E4%B8%8Ehbf%E6%8A%80%E6%9C%AF%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6%E9%AB%98%E5%B8%A6%E5%AE%BD%E5%86%85%E5%AD%98%E4%B8%8E%E4%BA%92%E8%BF%9E%E6%8A%80%E6%9C%AF%E7%9A%84%E6%BC%94%E8%BF%9B%E4%B8%8E%E6%9C%AA%E6%9D%A5%E8%B6%8B%E5%8A%BF/</link><pubDate>Mon, 16 Feb 2026 17:30:03 +0800</pubDate><author>XiaoLuoInvest</author><guid>https://hnboy.github.io/hbm%E4%B8%8Ehbf%E6%8A%80%E6%9C%AF%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6%E9%AB%98%E5%B8%A6%E5%AE%BD%E5%86%85%E5%AD%98%E4%B8%8E%E4%BA%92%E8%BF%9E%E6%8A%80%E6%9C%AF%E7%9A%84%E6%BC%94%E8%BF%9B%E4%B8%8E%E6%9C%AA%E6%9D%A5%E8%B6%8B%E5%8A%BF/</guid><description><![CDATA[<h2 id="执行摘要">执行摘要</h2>
+<p>高带宽内存（HBM）和高带宽互连（HBF）是当前高性能计算、人工智能和先进半导体领域的两项关键技术。HBM通过3D堆叠技术实现前所未有的内存带宽，而HBF则专注于解决芯片间高速通信的瓶颈问题。这两项技术的协同发展正在推动计算架构的革命性变革。</p>
+<h2 id="关键发现">关键发现</h2>
+<ul>
+<li><strong>HBM技术演进</strong>：从HBM1到HBM3E，带宽从128GB/s提升到超过1TB/s，堆叠层数从4层增加到12层 [1]</li>
+<li><strong>HBF技术突破</strong>：新型互连技术如UCIe、BoW等正在标准化芯片间通信，实现比传统PCIe高5-10倍的带宽密度 [2]</li>
+<li><strong>AI驱动需求</strong>：生成式AI和大语言模型对内存带宽的需求每2年翻一番，推动HBM/HBF技术快速发展 [3]</li>
+<li><strong>国产化进展</strong>：中国在HBM相关技术领域取得重要突破，但在先进制程和封装技术上仍有差距 [4]</li>
+</ul>
+<h2 id="详细分析">详细分析</h2>
+<h3 id="hbm技术演进路线">HBM技术演进路线</h3>
+<h4 id="hbm1到hbm3e的技术飞跃">HBM1到HBM3E的技术飞跃</h4>
+<p>高带宽内存技术自2013年首次提出以来，经历了快速的技术迭代：</p>
+<p><strong>HBM1 (2013)</strong></p>
+<ul>
+<li>带宽：128GB/s（每堆栈）</li>
+<li>堆叠：4层DRAM + 1层逻辑层</li>
+<li>接口：1024位宽，1Gbps/pin</li>
+<li>应用：AMD Fiji系列GPU</li>
+</ul>
+<p><strong>HBM2 (2016)</strong></p>
+<ul>
+<li>带宽：256GB/s</li>
+<li>堆叠：8层DRAM</li>
+<li>接口：2Gbps/pin</li>
+<li>应用：NVIDIA Tesla P100, AMD Vega</li>
+</ul>
+<p><strong>HBM2E (2018)</strong></p>
+<ul>
+<li>带宽：307-410GB/s</li>
+<li>堆叠：8-12层</li>
+<li>接口：3.2Gbps/pin</li>
+<li>应用：NVIDIA A100, AMD Instinct MI100</li>
+</ul>
+<p><strong>HBM3 (2022)</strong></p>
+<ul>
+<li>带宽：819GB/s</li>
+<li>堆叠：12层</li>
+<li>接口：6.4Gbps/pin</li>
+<li>应用：NVIDIA H100, AMD Instinct MI300</li>
+</ul>
+<p><strong>HBM3E (2024-2025)</strong></p>
+<ul>
+<li>带宽：1.0-1.2TB/s</li>
+<li>堆叠：12-16层</li>
+<li>接口：8-9Gbps/pin</li>
+<li>应用：下一代AI加速器</li>
+</ul>
+<h4 id="关键技术突破">关键技术突破</h4>
+<ol>
+<li><strong>TSV技术</strong>：硅通孔技术实现垂直互连，减少信号延迟和功耗</li>
+<li><strong>微凸块技术</strong>：更小的凸块间距（40μm→25μm）提高连接密度</li>
+<li><strong>热管理</strong>：先进TIM材料和散热方案解决3D堆叠的热挑战</li>
+<li><strong>测试技术</strong>：晶圆级测试和已知合格芯片（KGD）确保良率</li>
+</ol>
+<h3 id="hbf技术生态系统">HBF技术生态系统</h3>
+<h4 id="互连技术标准竞争">互连技术标准竞争</h4>
+<p>随着芯片复杂度增加，传统封装和互连技术面临瓶颈，催生了多种HBF解决方案：</p>
+<p><strong>UCIe (Universal Chiplet Interconnect Express)</strong></p>]]></description></item></channel></rss>
