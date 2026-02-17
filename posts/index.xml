@@ -1,4 +1,74 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All Posts - stay foolish stay hungry</title><link>https://hnboy.github.io/posts/</link><description>All Posts | stay foolish stay hungry</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 17 Feb 2026 20:28:26 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/posts/" rel="self" type="application/rss+xml"/><item><title>HBM技术深度解析：制造工艺、架构设计与性能优化</title><link>https://hnboy.github.io/hbm-deep-dive-manufacturing/</link><pubDate>Tue, 17 Feb 2026 20:28:26 +0800</pubDate><author>XiaoLuoInvest</author><guid>https://hnboy.github.io/hbm-deep-dive-manufacturing/</guid><description><![CDATA[<p><em>作者：XiaoLuoInvest | 日期：2026年2月17日 | 分类：[半导体技术, 内存制造, 3D集成]</em></p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All Posts - stay foolish stay hungry</title><link>https://hnboy.github.io/posts/</link><description>All Posts | stay foolish stay hungry</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 Feb 2026 00:38:24 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/posts/" rel="self" type="application/rss+xml"/><item><title>HBF与UCIe：打破AI芯片通信瓶颈的关键技术</title><link>https://hnboy.github.io/hbf-ucie-interconnect/</link><pubDate>Wed, 18 Feb 2026 00:38:24 +0800</pubDate><author>XiaoLuoInvest</author><guid>https://hnboy.github.io/hbf-ucie-interconnect/</guid><description><![CDATA[<p><em>作者：XiaoLuoInvest | 日期：2026年2月17日 | 分类：[先进封装, 芯片互连, UCIe]</em></p>
+<h2 id="引言计算不仅仅是处理器的竞争">引言：计算不仅仅是处理器的竞争</h2>
+<p>在AI大模型时代，单颗芯片的算力已经触及物理极限。为了获得更高的性能，我们必须将成百上千个计算单元连接在一起。然而，传统的PCB连接方式在延迟和带宽上已力不从心。<strong>高带宽互连（HBF）</strong> 和 <strong>UCIe（通用芯粒互连）</strong> 协议应运而生，成为了打破“通信墙”的关键。</p>
+<h2 id="什么是hbfhigh-bandwidth-fabric">什么是HBF（High Bandwidth Fabric）？</h2>
+<p>HBF是指在芯片内部或多个Chiplet（芯粒）之间，提供超高带宽、低延迟数据传输的架构。</p>
+<h3 id="hbf的核心优势">HBF的核心优势</h3>
+<ul>
+<li><strong>极低延迟</strong>：通过先进封装技术，缩短信号传输物理距离。</li>
+<li><strong>高能效比</strong>：每比特数据传输消耗的能量远低于传统方式。</li>
+<li><strong>高密度</strong>：利用硅中介层（Interposer）实现数千个连接点。</li>
+</ul>
+<h2 id="ucie开启chiplet生态的钥匙">UCIe：开启Chiplet生态的钥匙</h2>
+<p>UCIe (Universal Chiplet Interconnect Express) 是一个开放的工业标准，旨在将来自不同供应商的芯粒封装在一起。</p>
+<h3 id="为什么ucie如此重要">为什么UCIe如此重要？</h3>
+<ol>
+<li><strong>模块化设计</strong>：厂商可以像搭积木一样组合不同的处理单元。</li>
+<li><strong>降低成本</strong>：不需要所有功能都使用昂贵的先进制程。</li>
+<li><strong>互操作性</strong>：AMD、Intel、NVIDIA的芯粒在理论上可以实现互连。</li>
+</ol>
+<h2 id="投资视角互连技术的受益者">投资视角：互连技术的受益者</h2>
+<p>互连技术的爆发式增长，将直接带动以下领域的投资机会：</p>
+<ul>
+<li><strong>先进封装（OSAT）</strong>：如台积电CoWoS工艺的配套厂商。</li>
+<li><strong>IP授权公司</strong>：提供UCIe物理层和链路层IP的企业。</li>
+<li><strong>测试设备</strong>：更复杂的3D封装需要更精密的测试方案。</li>
+</ul>
+<hr>
+<p><em>风险提示：本文仅作为技术趋势探讨，不构成任何投资建议。</em></p>]]></description></item><item><title>寻找下一个辉达：2026年最具潜力的三家AI芯片公司</title><link>https://hnboy.github.io/ten-x-potential-ai-stocks/</link><pubDate>Wed, 18 Feb 2026 00:38:24 +0800</pubDate><author>XiaoLuoInvest</author><guid>https://hnboy.github.io/ten-x-potential-ai-stocks/</guid><description><![CDATA[<p><em>作者：XiaoLuoInvest | 日期：2026年2月17日 | 分类：[深度选股, AI投资]</em></p>
+<h2 id="为什么ai芯片仍是本年度最强主线">为什么AI芯片仍是本年度最强主线？</h2>
+<p>虽然NVIDIA已经是算力霸主，但算力需求的缺口依然巨大。特别是在边缘侧AI和定制化ASIC领域，新的领军者正在悄然崛起。</p>
+<h3 id="潜力公司a边缘算力领先者">潜力公司A：边缘算力领先者</h3>
+<p>该公司专注于低功耗AI推理芯片，已成功打入多家智能手机大厂供应链。</p>
+<h3 id="潜力公司b光子计算先锋">潜力公司B：光子计算先锋</h3>
+<p>利用光信号处理数据，彻底解决了硅基芯片的功耗难题。</p>
+<h3 id="潜力公司c算力调度优化专家">潜力公司C：算力调度优化专家</h3>
+<p>虽然不生产芯片，但其软件平台能让现有GPU效率提升30%以上。</p>
+<h2 id="结论">结论</h2>
+<p>投资AI芯片不应只盯着龙头，产业链中具有“不可替代性”的小巨人往往具有更高的估值弹性。</p>
+<hr>
+<p><em>声明：文中提及公司仅作研究参考。</em></p>]]></description></item><item><title>春节后半导体复盘：存储回暖与国产替代的加速</title><link>https://hnboy.github.io/semiconductor-review-feb-2026/</link><pubDate>Wed, 18 Feb 2026 00:38:24 +0800</pubDate><author>XiaoLuoInvest</author><guid>https://hnboy.github.io/semiconductor-review-feb-2026/</guid><description><![CDATA[<p><em>作者：XiaoLuoInvest | 日期：2026年2月17日 | 分类：[市场分析, 半导体投资]</em></p>
+<h2 id="2026春节行情回顾">2026春节行情回顾</h2>
+<p>2026年春节假期期间，全球半导体市场表现出极强的韧性。特别是存储芯片领域，主要大厂的库存水平已降至健康水平，价格涨幅超出市场预期。</p>
+<h3 id="核心看点">核心看点</h3>
+<ol>
+<li><strong>存储芯片（DRAM/NAND）</strong>：随着HBM需求的外溢，传统内存价格也开始稳步上涨。</li>
+<li><strong>AI芯片供应</strong>：国产AI算力芯片在春节期间完成了新一代产品的封测，标志着国产替代进入深水区。</li>
+<li><strong>先进封装设备</strong>：订单量在假期后出现爆发式增长。</li>
+</ol>
+<h2 id="值得关注的三个赛道">值得关注的三个赛道</h2>
+<ul>
+<li><strong>存储产业链</strong>：重点关注具有HBM技术储备的公司。</li>
+<li><strong>半导体设备</strong>：受益于晶圆厂扩产计划的龙头企业。</li>
+<li><strong>车规级半导体</strong>：新能源车出海带动的供应链机会。</li>
+</ul>
+<hr>
+<p><em>声明：投资有风险，入市需谨慎。</em></p>]]></description></item><item><title>零基础理财：如何通过定投布局半导体黄金十年</title><link>https://hnboy.github.io/beginner-finance-guide-semiconductor/</link><pubDate>Wed, 18 Feb 2026 00:38:24 +0800</pubDate><author>XiaoLuoInvest</author><guid>https://hnboy.github.io/beginner-finance-guide-semiconductor/</guid><description><![CDATA[<p><em>作者：XiaoLuoInvest | 日期：2026年2月17日 | 分类：[理财入门, 定投策略]</em></p>
+<h2 id="为什么半导体适合普通人定投">为什么半导体适合普通人定投？</h2>
+<p>半导体行业具有明显的周期性。对于普通投资者来说，择时非常困难，但“周期轮动”的确定性极高。</p>
+<h3 id="定投三部曲">定投三部曲</h3>
+<ol>
+<li><strong>选择标的</strong>：建议选择覆盖全产业链的半导体ETF。</li>
+<li><strong>制定计划</strong>：每月固定金额，不论涨跌。</li>
+<li><strong>长期持有</strong>：跨越牛熊周期，分享行业成长的红利。</li>
+</ol>
+<h2 id="常见误区">常见误区</h2>
+<ul>
+<li><strong>追涨杀跌</strong>：在高位情绪亢奋时加仓。</li>
+<li><strong>过度集中</strong>：只买入单一的一两只股票。</li>
+</ul>
+<h2 id="结语">结语</h2>
+<p>理财是一场马拉松，利用定投工具，哪怕零基础也能抓住科技时代的增长机遇。</p>]]></description></item><item><title>HBM技术深度解析：制造工艺、架构设计与性能优化</title><link>https://hnboy.github.io/hbm-deep-dive-manufacturing/</link><pubDate>Tue, 17 Feb 2026 20:28:26 +0800</pubDate><author>XiaoLuoInvest</author><guid>https://hnboy.github.io/hbm-deep-dive-manufacturing/</guid><description><![CDATA[<p><em>作者：XiaoLuoInvest | 日期：2026年2月17日 | 分类：[半导体技术, 内存制造, 3D集成]</em></p>
 <h2 id="引言揭开hbm制造的神秘面纱">引言：揭开HBM制造的神秘面纱</h2>
 <p>当您使用ChatGPT获得即时回复，或观看AI生成的4K视频时，背后是HBM技术的高效运作。但很少有人知道，这些性能奇迹是如何从硅片变成产品的。本文将带您深入HBM制造的全过程，从晶圆到最终封装，揭示这项3D堆叠技术的每一个关键步骤。</p>
 <h2 id="第一部分hbm制造全流程解析">第一部分：HBM制造全流程解析</h2>
@@ -397,255 +467,4 @@
 <li>风险提示: 利率环境变化影响</li>
 </ul>
 <h3 id="4-药明康德-603259sh---医药龙头创新驱动">4. 药明康德 (603259.SH) - 医药龙头，创新驱动</h3>
-<p><strong>推荐理由</strong>:</p>]]></description></item><item><title>ONFI技术演进与未来趋势：从4.0到6.0的技术路线图</title><link>https://hnboy.github.io/onfi%E6%8A%80%E6%9C%AF%E6%BC%94%E8%BF%9B%E4%B8%8E%E6%9C%AA%E6%9D%A5%E8%B6%8B%E5%8A%BF%E4%BB%8E40%E5%88%B060%E7%9A%84%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E5%9B%BE/</link><pubDate>Mon, 16 Feb 2026 11:30:00 +0800</pubDate><author>XiaoLuoInvest</author><guid>https://hnboy.github.io/onfi%E6%8A%80%E6%9C%AF%E6%BC%94%E8%BF%9B%E4%B8%8E%E6%9C%AA%E6%9D%A5%E8%B6%8B%E5%8A%BF%E4%BB%8E40%E5%88%B060%E7%9A%84%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF%E5%9B%BE/</guid><description><![CDATA[<h2 id="onfi技术发展历程回顾">ONFI技术发展历程回顾</h2>
-<p>ONFI（Open NAND Flash Interface）作为NAND闪存的开放标准接口，自2006年发布以来，已经经历了多个重要版本迭代。</p>
-<h3 id="关键版本里程碑">关键版本里程碑</h3>
-<ol>
-<li><strong>ONFI 1.0 (2006)</strong>: 奠定基础，定义基本接口规范</li>
-<li><strong>ONFI 2.0 (2008)</strong>: 引入DDR模式，速度提升至200MT/s</li>
-<li><strong>ONFI 3.0 (2011)</strong>: 支持Toggle模式，速度达到400MT/s</li>
-<li><strong>ONFI 4.0 (2014)</strong>: 速度提升至800MT/s，支持NV-DDR3</li>
-<li><strong>ONFI 5.0 (2021)</strong>: 速度达到3600MT/s，支持NV-DDR4</li>
-</ol>
-<h2 id="onfi-50技术深度解析">ONFI 5.0技术深度解析</h2>
-<h3 id="核心技术创新">核心技术创新</h3>
-<ol>
-<li><strong>速度突破</strong>: 3600MT/s接口速度，相比ONFI 4.0提升4.5倍</li>
-<li><strong>能效优化</strong>: 功耗降低30%，支持更节能的移动设备</li>
-<li><strong>可靠性提升</strong>: 增强的ECC纠错能力，数据完整性更高</li>
-<li><strong>兼容性</strong>: 向后兼容ONFI 4.0，保护现有投资</li>
-</ol>
-<h3 id="应用场景拓展">应用场景拓展</h3>
-<ol>
-<li><strong>数据中心</strong>: 高性能SSD需求驱动ONFI 5.0普及</li>
-<li><strong>移动设备</strong>: 低功耗特性适合智能手机和平板</li>
-<li><strong>汽车电子</strong>: 高可靠性满足汽车级应用要求</li>
-<li><strong>工业控制</strong>: 宽温范围支持工业环境应用</li>
-</ol>
-<h2 id="onfi-60技术前瞻">ONFI 6.0技术前瞻</h2>
-<h3 id="预期技术指标">预期技术指标</h3>
-<ol>
-<li><strong>接口速度</strong>: 目标7200MT/s，相比ONFI 5.0翻倍</li>
-<li><strong>能效目标</strong>: 功耗再降低20-30%</li>
-<li><strong>延迟优化</strong>: 读写延迟降低至纳秒级</li>
-<li><strong>容量支持</strong>: 支持更高密度的3D NAND</li>
-</ol>
-<h3 id="关键技术挑战">关键技术挑战</h3>
-<ol>
-<li><strong>信号完整性</strong>: 高速信号传输的物理层挑战</li>
-<li><strong>功耗管理</strong>: 速度提升带来的功耗增加问题</li>
-<li><strong>成本控制</strong>: 新技术带来的制造成本上升</li>
-<li><strong>生态系统</strong>: 需要控制器、主控芯片等配套支持</li>
-</ol>
-<h2 id="技术演进路线图">技术演进路线图</h2>
-<h3 id="短期路线-2026-2028">短期路线 (2026-2028)</h3>
-<ol>
-<li><strong>ONFI 5.0普及</strong>: 成为主流NAND接口标准</li>
-<li><strong>工艺优化</strong>: 28nm以下制程工艺成熟</li>
-<li><strong>成本下降</strong>: 规模效应带来成本优势</li>
-</ol>
-<h3 id="中期路线-2028-2030">中期路线 (2028-2030)</h3>
-<ol>
-<li><strong>ONFI 6.0商用</strong>: 首批支持ONFI 6.0的产品上市</li>
-<li><strong>应用拓展</strong>: 在AI、边缘计算等新领域应用</li>
-<li><strong>生态完善</strong>: 完整的产业链生态系统建立</li>
-</ol>
-<h3 id="长期路线-2030-2035">长期路线 (2030-2035)</h3>
-<ol>
-<li><strong>后ONFI时代</strong>: 探索新的存储接口技术</li>
-<li><strong>技术融合</strong>: 与CXL、PCIe等技术融合</li>
-<li><strong>新架构探索</strong>: 存算一体等新架构发展</li>
-</ol>
-<h2 id="产业链影响分析">产业链影响分析</h2>
-<h3 id="nand闪存制造商">NAND闪存制造商</h3>
-<ol>
-<li><strong>技术领先者</strong>: 三星、美光、铠侠等率先支持新标准</li>
-<li><strong>追赶者机会</strong>: 长江存储等通过新技术实现弯道超车</li>
-<li><strong>成本压力</strong>: 技术升级带来的研发和制造成本增加</li>
-</ol>
-<h3 id="控制器厂商">控制器厂商</h3>
-<ol>
-<li><strong>技术挑战</strong>: 需要快速适配新的接口标准</li>
-<li><strong>市场机会</strong>: 提供兼容新旧标准的解决方案</li>
-<li><strong>生态地位</strong>: 在存储生态中的关键作用凸显</li>
-</ol>
-<h3 id="终端设备厂商">终端设备厂商</h3>
-<ol>
-<li><strong>性能提升</strong>: 获得更好的存储性能体验</li>
-<li><strong>产品差异化</strong>: 通过存储性能实现产品差异化</li>
-<li><strong>成本考量</strong>: 需要在性能和成本之间平衡</li>
-</ol>
-<h2 id="投资机会分析">投资机会分析</h2>
-<h3 id="直接受益标的">直接受益标的</h3>
-<ol>
-<li><strong>NAND闪存制造商</strong>: 技术领先者受益于标准升级</li>
-<li><strong>控制器厂商</strong>: 提供关键配套技术解决方案</li>
-<li><strong>测试设备厂商</strong>: 新标准带来测试设备更新需求</li>
-</ol>
-<h3 id="间接受益标的">间接受益标的</h3>
-<ol>
-<li><strong>半导体设备</strong>: 先进制程设备需求增长</li>
-<li><strong>材料供应商</strong>: 高端存储芯片材料需求增加</li>
-<li><strong>封装测试</strong>: 先进封装技术需求提升</li>
-</ol>
-<h3 id="重点关注公司">重点关注公司</h3>
-<ol>
-<li><strong>三星电子 (005930.KS)</strong>: ONFI技术领导者</li>
-<li><strong>美光科技 (MU)</strong>: 在ONFI 5.0技术领先</li>
-<li><strong>群联电子 (8299.TW)</strong>: 存储控制器重要厂商</li>
-<li><strong>长江存储</strong>: 国产NAND闪存技术追赶者</li>
-</ol>
-<h2 id="风险与挑战">风险与挑战</h2>
-<h3 id="技术风险">技术风险</h3>
-<ol>
-<li><strong>技术迭代风险</strong>: 新技术可能面临成熟度问题</li>
-<li><strong>兼容性风险</strong>: 新旧标准兼容可能存在问题</li>
-<li><strong>性能风险</strong>: 实际性能可能达不到理论值</li>
-</ol>
-<h3 id="市场风险">市场风险</h3>
-<ol>
-<li><strong>需求波动</strong>: 存储市场需求可能波动</li>
-<li><strong>竞争加剧</strong>: 技术竞争可能导致价格战</li>
-<li><strong>替代风险</strong>: 其他存储技术可能形成竞争</li>
-</ol>
-<h3 id="政策风险">政策风险</h3>
-<ol>
-<li><strong>技术管制</strong>: 地缘政治可能影响技术交流</li>
-<li><strong>产业政策</strong>: 各国产业政策变化影响</li>
-<li><strong>标准制定</strong>: 国际标准制定可能受政治影响</li>
-</ol>
-<h2 id="投资策略建议">投资策略建议</h2>
-<h3 id="短期策略-1-12个月">短期策略 (1-12个月)</h3>
-<ol>
-<li><strong>关注技术突破</strong>: 跟踪ONFI 5.0普及进度</li>
-<li><strong>布局领先企业</strong>: 投资技术领先的NAND制造商</li>
-<li><strong>把握周期机会</strong>: 存储周期复苏带来的投资机会</li>
-</ol>
-<h3 id="中期策略-1-3年">中期策略 (1-3年)</h3>
-<ol>
-<li><strong>技术升级受益</strong>: 投资ONFI 6.0技术相关企业</li>
-<li><strong>产业链布局</strong>: 关注控制器、测试设备等环节</li>
-<li><strong>国产替代机会</strong>: 关注国内存储产业链发展</li>
-</ol>
-<h3 id="长期策略-3-5年">长期策略 (3-5年)</h3>
-<ol>
-<li><strong>技术趋势把握</strong>: 关注后ONFI时代技术发展</li>
-<li><strong>生态建设参与</strong>: 投资存储生态系统关键企业</li>
-<li><strong>新应用拓展</strong>: 关注存储在新领域的应用机会</li>
-</ol>
-<h2 id="结论">结论</h2>
-<p>ONFI技术的持续演进是存储产业发展的重要驱动力。从ONFI 5.0到6.0的技术升级，将为存储产业带来新的发展机遇。</p>]]></description></item><item><title>AI芯片投资趋势2026：从训练到推理的全产业链机会</title><link>https://hnboy.github.io/ai%E8%8A%AF%E7%89%87%E6%8A%95%E8%B5%84%E8%B6%8B%E5%8A%BF2026%E4%BB%8E%E8%AE%AD%E7%BB%83%E5%88%B0%E6%8E%A8%E7%90%86%E7%9A%84%E5%85%A8%E4%BA%A7%E4%B8%9A%E9%93%BE%E6%9C%BA%E4%BC%9A/</link><pubDate>Mon, 16 Feb 2026 11:15:00 +0800</pubDate><author>XiaoLuoInvest</author><guid>https://hnboy.github.io/ai%E8%8A%AF%E7%89%87%E6%8A%95%E8%B5%84%E8%B6%8B%E5%8A%BF2026%E4%BB%8E%E8%AE%AD%E7%BB%83%E5%88%B0%E6%8E%A8%E7%90%86%E7%9A%84%E5%85%A8%E4%BA%A7%E4%B8%9A%E9%93%BE%E6%9C%BA%E4%BC%9A/</guid><description><![CDATA[<h2 id="2026年ai芯片市场格局">2026年AI芯片市场格局</h2>
-<p>随着生成式AI应用的爆发式增长，AI芯片市场正经历前所未有的变革。2026年，全球AI芯片市场规模预计将达到1500亿美元，年复合增长率超过35%。</p>
-<h3 id="市场细分">市场细分</h3>
-<ol>
-<li><strong>训练芯片市场</strong>：英伟达继续主导，但竞争加剧</li>
-<li><strong>推理芯片市场</strong>：百花齐放，专用芯片崛起</li>
-<li><strong>边缘AI芯片</strong>：物联网驱动，增长潜力巨大</li>
-<li><strong>云端AI芯片</strong>：云厂商自研芯片加速替代</li>
-</ol>
-<h2 id="技术演进趋势">技术演进趋势</h2>
-<h3 id="下一代gpu架构">下一代GPU架构</h3>
-<ul>
-<li><strong>英伟达Blackwell架构</strong>：已全面商用，性能提升显著</li>
-<li><strong>AMD MI400系列</strong>：在性价比方面取得突破</li>
-<li><strong>国产替代进展</strong>：华为昇腾、寒武纪等产品性能快速追赶</li>
-</ul>
-<h3 id="专用ai芯片崛起">专用AI芯片崛起</h3>
-<ol>
-<li><strong>TPU-like架构</strong>：Google TPU v6性能领先</li>
-<li><strong>神经拟态芯片</strong>：能效比优势明显</li>
-<li><strong>光计算芯片</strong>：实验室阶段突破，商业化前景广阔</li>
-</ol>
-<h3 id="先进封装技术">先进封装技术</h3>
-<ul>
-<li><strong>Chiplet技术</strong>：成为主流，降低设计成本和风险</li>
-<li><strong>3D堆叠</strong>：提升带宽和能效比</li>
-<li><strong>先进封装</strong>：台积电CoWoS产能持续扩张</li>
-</ul>
-<h2 id="投资机会分析">投资机会分析</h2>
-<h3 id="上游产业链">上游产业链</h3>
-<ol>
-<li><strong>EDA工具</strong>：AI芯片设计复杂度提升，EDA需求增长</li>
-<li><strong>IP核</strong>：AI专用IP成为新增长点</li>
-<li><strong>先进制程</strong>：3nm/2nm制程需求旺盛</li>
-</ol>
-<h3 id="中游制造">中游制造</h3>
-<ol>
-<li><strong>晶圆代工</strong>：台积电、三星、中芯国际受益</li>
-<li><strong>封装测试</strong>：先进封装需求爆发</li>
-<li><strong>设备材料</strong>：光刻机、刻蚀机等设备需求强劲</li>
-</ol>
-<h3 id="下游应用">下游应用</h3>
-<ol>
-<li><strong>数据中心</strong>：AI服务器需求持续增长</li>
-<li><strong>自动驾驶</strong>：车载AI芯片市场快速扩张</li>
-<li><strong>消费电子</strong>：手机、PC等终端AI芯片渗透率提升</li>
-</ol>
-<h2 id="重点关注公司">重点关注公司</h2>
-<h3 id="国际巨头">国际巨头</h3>
-<ol>
-<li><strong>英伟达 (NVDA)</strong>：AI芯片绝对龙头，生态优势明显</li>
-<li><strong>AMD (AMD)</strong>：MI系列GPU在性价比方面具备竞争力</li>
-<li><strong>英特尔 (INTC)</strong>：Gaudi系列加速追赶，代工业务转型</li>
-</ol>
-<h3 id="国内企业">国内企业</h3>
-<ol>
-<li><strong>华为昇腾</strong>：国产替代主力，生态建设加速</li>
-<li><strong>寒武纪 (688256.SH)</strong>：AI芯片设计领先企业</li>
-<li><strong>景嘉微 (300474.SZ)</strong>：GPU国产化重要参与者</li>
-<li><strong>海光信息 (688041.SH)</strong>：CPU+DCU协同发展</li>
-</ol>
-<h3 id="产业链相关">产业链相关</h3>
-<ol>
-<li><strong>中芯国际 (688981.SH)</strong>：先进制程突破关键</li>
-<li><strong>长电科技 (600584.SH)</strong>：先进封装技术领先</li>
-<li><strong>北方华创 (002371.SZ)</strong>：半导体设备国产化核心</li>
-</ol>
-<h2 id="投资策略建议">投资策略建议</h2>
-<h3 id="短期策略-1-3个月">短期策略 (1-3个月)</h3>
-<ol>
-<li><strong>关注财报季</strong>：Q1财报指引对全年预期影响重大</li>
-<li><strong>技术突破催化</strong>：关注新产品发布和技术突破</li>
-<li><strong>政策支持</strong>：各国AI芯片产业政策变化</li>
-</ol>
-<h3 id="中期布局-3-12个月">中期布局 (3-12个月)</h3>
-<ol>
-<li><strong>产业链完整性</strong>：关注具备完整产业链布局的企业</li>
-<li><strong>技术护城河</strong>：重视技术壁垒和专利布局</li>
-<li><strong>生态建设</strong>：AI芯片生态建设成为竞争关键</li>
-</ol>
-<h3 id="长期投资-1-3年">长期投资 (1-3年)</h3>
-<ol>
-<li><strong>国产替代主线</strong>：地缘政治推动国产替代加速</li>
-<li><strong>技术迭代机会</strong>：新技术路线带来的弯道超车机会</li>
-<li><strong>应用场景拓展</strong>：AI芯片在新兴领域的应用拓展</li>
-</ol>
-<h2 id="风险提示">风险提示</h2>
-<h3 id="技术风险">技术风险</h3>
-<ol>
-<li><strong>技术迭代风险</strong>：AI芯片技术迭代速度快</li>
-<li><strong>制程限制</strong>：先进制程获取存在不确定性</li>
-<li><strong>生态建设</strong>：生态建设需要时间和资源投入</li>
-</ol>
-<h3 id="市场风险">市场风险</h3>
-<ol>
-<li><strong>竞争加剧</strong>：新进入者增多，竞争激烈</li>
-<li><strong>需求波动</strong>：AI应用需求可能存在波动</li>
-<li><strong>估值风险</strong>：部分公司估值已反映较高预期</li>
-</ol>
-<h3 id="政策风险">政策风险</h3>
-<ol>
-<li><strong>出口管制</strong>：地缘政治影响供应链稳定</li>
-<li><strong>产业政策</strong>：各国产业政策变化影响</li>
-<li><strong>数据安全</strong>：数据安全法规趋严</li>
-</ol>
-<h2 id="结论">结论</h2>
-<p>2026年将是AI芯片产业发展的关键一年。建议投资者重点关注：</p>]]></description></item><item><title>PCIe 6.0 and NAND Flash Interface Integration: Future Directions</title><link>https://hnboy.github.io/pcie-6.0-nand-integration/</link><pubDate>Mon, 16 Feb 2026 08:00:00 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/pcie-6.0-nand-integration/</guid><description><![CDATA[<h1 id="pcie-60-and-nand-flash-interface-integration-future-directions">PCIe 6.0 and NAND Flash Interface Integration: Future Directions</h1>
-<p>The evolution of PCIe 6.0 brings unprecedented bandwidth and latency improvements that will fundamentally reshape how NAND flash interfaces integrate with modern computing systems. This article examines the technical challenges and architectural opportunities at this critical intersection.</p>
-<h2 id="1-pcie-60-key-technical-advancements">1. PCIe 6.0: Key Technical Advancements</h2>
-<h3 id="11-pam-4-signaling-and-64gts">1.1 PAM-4 Signaling and 64GT/s</h3>
-<p>PCIe 6.0 doubles the data rate from PCIe 5.0&rsquo;s 32GT/s to <strong>64GT/s</strong> using:</p>]]></description></item><item><title>ONFI 5.0 and Beyond: Technical Evolution and Future Trends</title><link>https://hnboy.github.io/onfi-5.0-future-trends/</link><pubDate>Sun, 15 Feb 2026 12:00:00 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/onfi-5.0-future-trends/</guid><description><![CDATA[<h1 id="onfi-50-and-beyond-technical-evolution-and-future-trends">ONFI 5.0 and Beyond: Technical Evolution and Future Trends</h1>
-<p>The Open NAND Flash Interface (ONFI) specification has evolved significantly since its inception, with ONFI 5.0 representing a major leap forward in performance and capabilities. This article explores the technical innovations in ONFI 5.0 and looks ahead to future developments in NAND flash interface technology.</p>
-<h2 id="1-onfi-50-key-technical-innovations">1. ONFI 5.0: Key Technical Innovations</h2>
-<h3 id="11-2400mts-interface-speed">1.1 2400MT/s Interface Speed</h3>
-<p>ONFI 5.0 doubles the interface speed from ONFI 4.2&rsquo;s 1200MT/s to <strong>2400MT/s</strong>, enabling:</p>]]></description></item></channel></rss>
+<p><strong>推荐理由</strong>:</p>]]></description></item></channel></rss>
