@@ -1,4 +1,37 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>stay foolish stay hungry</title><link>https://hnboy.github.io/</link><description>About LoveIt Theme</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 17 Feb 2026 11:10:00 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>HBM/HBF Technology Introduction Guide: Memory and Interconnect Revolution in the AI Era</title><link>https://hnboy.github.io/hbm-hbf-introduction-guide/</link><pubDate>Tue, 17 Feb 2026 11:10:00 +0800</pubDate><author>XiaoLuoInvest</author><guid>https://hnboy.github.io/hbm-hbf-introduction-guide/</guid><description><![CDATA[<h4 id="引言为什么需要关注hbm和hbf">引言：为什么需要关注HBM和HBF？</h4>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>stay foolish stay hungry</title><link>https://hnboy.github.io/</link><description>About LoveIt Theme</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 17 Feb 2026 20:28:26 +0800</lastBuildDate><atom:link href="https://hnboy.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>HBM技术深度解析：制造工艺、架构设计与性能优化</title><link>https://hnboy.github.io/hbm-deep-dive-manufacturing/</link><pubDate>Tue, 17 Feb 2026 20:28:26 +0800</pubDate><author>XiaoLuoInvest</author><guid>https://hnboy.github.io/hbm-deep-dive-manufacturing/</guid><description><![CDATA[<p><em>作者：XiaoLuoInvest | 日期：2026年2月17日 | 分类：[半导体技术, 内存制造, 3D集成]</em></p>
+<h2 id="引言揭开hbm制造的神秘面纱">引言：揭开HBM制造的神秘面纱</h2>
+<p>当您使用ChatGPT获得即时回复，或观看AI生成的4K视频时，背后是HBM技术的高效运作。但很少有人知道，这些性能奇迹是如何从硅片变成产品的。本文将带您深入HBM制造的全过程，从晶圆到最终封装，揭示这项3D堆叠技术的每一个关键步骤。</p>
+<h2 id="第一部分hbm制造全流程解析">第一部分：HBM制造全流程解析</h2>
+<h3 id="11-制造流程总览">1.1 制造流程总览</h3>
+<p>HBM的制造是一个高度复杂的多步骤过程，我们可以将其分为四个主要阶段：</p>
+<div class="code-block code-line-numbers" style="counter-reset: code-block 0">
+    <div class="code-header language-">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">HBM制造四阶段：
+</span></span><span class="line"><span class="cl">├── 第一阶段：晶圆制备
+</span></span><span class="line"><span class="cl">│   ├── DRAM晶圆制造
+</span></span><span class="line"><span class="cl">│   ├── 逻辑晶圆制造
+</span></span><span class="line"><span class="cl">│   └── 中介层晶圆制造
+</span></span><span class="line"><span class="cl">├── 第二阶段：TSV加工
+</span></span><span class="line"><span class="cl">│   ├── 深孔刻蚀
+</span></span><span class="line"><span class="cl">│   ├── 绝缘层沉积
+</span></span><span class="line"><span class="cl">│   ├── 阻挡层/种子层
+</span></span><span class="line"><span class="cl">│   └── 铜填充与平坦化
+</span></span><span class="line"><span class="cl">├── 第三阶段：3D堆叠
+</span></span><span class="line"><span class="cl">│   ├── 晶圆减薄
+</span></span><span class="line"><span class="cl">│   ├── 微凸块形成
+</span></span><span class="line"><span class="cl">│   ├── 芯片键合
+</span></span><span class="line"><span class="cl">│   └── 堆叠对准
+</span></span><span class="line"><span class="cl">└── 第四阶段：封装测试
+</span></span><span class="line"><span class="cl">    ├── 封装组装
+</span></span><span class="line"><span class="cl">    ├── 最终测试
+</span></span><span class="line"><span class="cl">    ├── 老化测试
+</span></span><span class="line"><span class="cl">    └── 质量认证</span></span></code></pre></div></div>
+<h3 id="12-关键技术步骤详解">1.2 关键技术步骤详解</h3>
+<h4 id="tsv制造在硅片中钻隧道">TSV制造：在硅片中&quot;钻隧道&quot;</h4>
+<p>TSV（硅通孔）是HBM技术的核心，制造过程极为精密：</p>]]></description></item><item><title>HBM/HBF Technology Introduction Guide: Memory and Interconnect Revolution in the AI Era</title><link>https://hnboy.github.io/hbm-hbf-introduction-guide/</link><pubDate>Tue, 17 Feb 2026 11:10:00 +0800</pubDate><author>XiaoLuoInvest</author><guid>https://hnboy.github.io/hbm-hbf-introduction-guide/</guid><description><![CDATA[<h4 id="引言为什么需要关注hbm和hbf">引言：为什么需要关注HBM和HBF？</h4>
 <p>在人工智能爆炸式发展的今天，传统的计算架构正面临前所未有的挑战。当ChatGPT在几秒内生成一篇千字文章，当Stable Diffusion实时创作精美画作，背后是海量数据的快速流动和处理。这种能力依赖于两项关键技术：<strong>高带宽内存（HBM）</strong> 和 <strong>高带宽互连（HBF）</strong>。</p>
 <p>简单来说：</p>
 <ul>
@@ -615,15 +648,4 @@
 <p>The Open NAND Flash Interface (ONFI) specification has evolved significantly since its inception, with ONFI 5.0 representing a major leap forward in performance and capabilities. This article explores the technical innovations in ONFI 5.0 and looks ahead to future developments in NAND flash interface technology.</p>
 <h2 id="1-onfi-50-key-technical-innovations">1. ONFI 5.0: Key Technical Innovations</h2>
 <h3 id="11-2400mts-interface-speed">1.1 2400MT/s Interface Speed</h3>
-<p>ONFI 5.0 doubles the interface speed from ONFI 4.2&rsquo;s 1200MT/s to <strong>2400MT/s</strong>, enabling:</p>]]></description></item><item><title>ONFI Signal Integrity Optimization: Beyond Basic ODT</title><link>https://hnboy.github.io/onfi-signal-integrity-optimization/</link><pubDate>Thu, 12 Feb 2026 07:30:00 +0800</pubDate><author>xxxx</author><guid>https://hnboy.github.io/onfi-signal-integrity-optimization/</guid><description><![CDATA[<h1 id="onfi-signal-integrity-optimization-beyond-basic-odt">ONFI Signal Integrity Optimization: Beyond Basic ODT</h1>
-<p>While On-Die Termination (ODT) is the foundation of high-speed NAND interface design, achieving reliable operation at 2400MT/s (ONFI 5.0) and beyond requires a comprehensive signal integrity strategy. This post explores advanced optimization techniques that go beyond basic ODT implementation.</p>
-<h2 id="1-the-challenge-scaling-to-2400mts">1. The Challenge: Scaling to 2400MT/s+</h2>
-<p>At 2400MT/s, the unit interval (UI) is approximately <strong>417ps</strong>. Within this tiny window, we must account for:</p>
-<ul>
-<li><strong>Controller output jitter</strong>: 30-50ps</li>
-<li><strong>PCB trace delay variations</strong>: 20-40ps</li>
-<li><strong>NAND input buffer setup/hold</strong>: 50-80ps</li>
-<li><strong>Clock skew</strong>: 20-30ps</li>
-<li><strong>Power supply noise</strong>: 10-20ps</li>
-</ul>
-<p>The remaining margin for actual data transmission can be less than <strong>200ps</strong>, making every optimization critical.</p>]]></description></item></channel></rss>
+<p>ONFI 5.0 doubles the interface speed from ONFI 4.2&rsquo;s 1200MT/s to <strong>2400MT/s</strong>, enabling:</p>]]></description></item></channel></rss>
