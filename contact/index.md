@@ -1,10 +1,10 @@
 # Contact Us
 
 
-# Contact Us
+# Contact
 
-For technical inquiries, collaboration, or feedback, please reach out to us at:
+For technical inquiries, collaboration, or feedback, please reach out to me at:
 
-- **Email**: [hnywolf@gmail.com](mailto:hnywolf@gmail.com)
+- **Email**: [hnwolf@gmail.com](mailto:hnwolf@gmail.com)
 - **GitHub**: [hnboy](https://github.com/hnboy)
 

@@ -1,116 +1,79 @@
-# 隐私政策
+# Privacy Policy
 
 
-# 隐私政策
+# Privacy Policy
 
-最后更新：2026年2月20日
+Last updated: Feb 20, 2026
 
-## 引言
+This page explains how `stay foolish stay hungry` ("this site") collects, uses, and protects your information when you visit.
 
-hnboy 博客（以下简称"我们"、"我们的"）尊重并保护用户的隐私。本隐私政策解释了当您访问我们的网站时，我们如何收集、使用、披露和保护您的信息。
+## Information We Collect
 
-## 信息收集
+### Automatically collected
+When you visit this site, the server and analytics services may automatically log:
 
-### 1. 自动收集的信息
-当您访问我们的网站时，我们可能会自动收集以下信息：
-- IP地址
-- 浏览器类型和版本
-- 操作系统
-- 访问时间和日期
-- 访问的页面和停留时间
-- 引荐来源
+- IP address (used for regional statistics, anonymized or truncated)
+- Browser type and version
+- Operating system
+- Access time and pages visited
+- Referrer information
 
-### 2. 您提供的信息
-当您通过以下方式与我们互动时，我们可能会收集您提供的信息：
-- 提交评论
-- 订阅邮件列表
-- 联系我们
-- 参与调查或问卷
+### Information you provide
+When you interact with this site (e.g. comments, email), you may submit information such as your name, email, and message content.
 
-## 信息使用
+## How We Use Information
 
-我们使用收集的信息用于以下目的：
-- 提供和改进我们的服务
-- 个性化用户体验
-- 分析网站使用情况
-- 发送更新和通知（如您已订阅）
-- 回复您的询问和请求
-- 防止欺诈和滥用
+Collected information is used only for:
 
-## 信息共享
+- Improving site content and user experience
+- Analyzing traffic trends (via Google Analytics)
+- Responding to your feedback and inquiries
+- Preventing abuse and fraud
 
-我们不会出售、交易或以其他方式将您的个人信息转让给外部方，除非以下情况：
+## Cookies and Third-Party Services
 
-### 1. 服务提供商
-我们可能会与帮助我们运营网站或提供服务的第三方共享信息，例如：
-- 托管服务提供商
-- 分析服务提供商
-- 邮件营销服务
+### Google Analytics
+This site uses Google Analytics to understand traffic. Google places cookies in your browser to collect anonymized data. Please see [Google's privacy and terms](https://policies.google.com/technologies/cookies) for details. You can opt out of personalized advertising at [Google Ads Settings](https://adssettings.google.com/).
 
-### 2. 法律要求
-如果法律要求或为了保护我们的权利，我们可能会披露您的信息。
+### Third-party ads
+After this site passes the Google AdSense review, Google-provided ads may be displayed. Google uses cookies based on your prior visits to this and other sites to serve ads. You can manage or disable personalized ads at [Google Ads Settings](https://adssettings.google.com/).
 
-### 3. 业务转移
-如果发生合并、收购或资产出售，您的信息可能会被转移。
+### Opting out
+You can disable cookies in your browser, but some features may not work as expected.
 
-## Cookies和跟踪技术
+## Information Sharing
+I do not sell or trade your personal information. Disclosure to third parties only happens when:
 
-### 1. Cookies
-我们使用cookies来：
-- 记住您的偏好
-- 分析网站使用情况
-- 提供个性化内容
+- Required by law
+- Necessary to protect the rights, property, or safety of this site or the public
+- In the event of a merger, acquisition, or asset sale
 
-### 2. 第三方跟踪
-我们可能会使用第三方服务（如Google Analytics）来跟踪和分析网站使用情况。
+## Data Security
+This site uses reasonable safeguards to protect your information: HTTPS encryption, anonymized analytics, and restricted admin access.
 
-### 3. 选择退出
-您可以通过浏览器设置拒绝cookies，但这可能会影响网站功能。
+## Your Rights
+Depending on applicable law, you may have the right to:
 
-## 数据安全
+- Access, correct, or delete personal information I hold about you
+- Withdraw consent or restrict processing
+- Request data portability
 
-我们采取合理的安全措施来保护您的信息，包括：
-- 使用SSL加密
-- 定期安全审计
-- 访问控制
-- 数据备份
+To exercise these rights, please contact me using the email below.
 
-## 数据保留
+## Children's Privacy
+This site is intended for engineers and is not directed to children under 13. I do not knowingly collect personal information from children.
 
-我们仅在实现本隐私政策所述目的所需的时间内保留您的信息。
+## External Links
+This site may link to third-party sites (such as GitHub and Google services). I cannot control and am not responsible for their privacy practices.
 
-## 您的权利
+## Policy Changes
+I may update this privacy policy from time to time. The "Last updated" date on this page indicates when the policy was last revised.
 
-根据适用法律，您可能拥有以下权利：
-- 访问您的个人信息
-- 更正不准确的信息
-- 删除您的信息
-- 限制或反对处理
-- 数据可移植性
+## Contact
+If you have any questions about this privacy policy, please contact me at:
 
-## 儿童隐私
+- **Email**: [hnwolf@gmail.com](mailto:hnwolf@gmail.com)
+- **GitHub**: [hnboy](https://github.com/hnboy)
 
-我们的网站不面向13岁以下的儿童，我们不会故意收集儿童的个人信息。
-
-## 第三方链接
-
-我们的网站可能包含指向第三方网站的链接。我们对这些网站的隐私实践不承担责任。
-
-## 隐私政策变更
-
-我们可能会不时更新本隐私政策。更新后的政策将在网站上发布，并更新"最后更新"日期。
-
-## 联系我们
-
-如果您对本隐私政策有任何疑问，请通过以下方式联系我们：
-
-- **邮箱**：privacy@hnboyblog.com
-- **邮寄地址**：上海市浦东新区张江高科技园区
-
-## 管辖法律
-
-本隐私政策受中华人民共和国法律管辖。
-
----
-
-**重要提示**：本隐私政策仅适用于hnboy博客网站。如果您通过我们的链接访问第三方网站，请查看该网站的隐私政策。
+## Governing Law
+This privacy policy is governed by the laws of the People's Republic of China.
